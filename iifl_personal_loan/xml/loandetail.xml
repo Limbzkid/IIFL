@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<companycategory>
+<cata>
+<tenure>1</tenure>
+<multipliers>5</multipliers>
+<foirge50>60</foirge50>
+<foirle50>55</foirle50>
+<maxloanamount>1500000</maxloanamount>
+<roi>15.50</roi>
+</cata>
+</companycategory>

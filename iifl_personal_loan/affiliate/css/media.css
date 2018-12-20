@@ -1,0 +1,63 @@
+@media only screen and (max-width:1280px) {
+
+}
+@media only screen and (max-width:1024px) {
+	.header-inner{padding: 0 10px;}
+	header .logo{width: 90px; padding-right: 12px; margin-right: 12px;}
+	header .personal-loan{width: 100px;}
+	.card-container{width: 80px!important; top: 5px!important;}
+	.pendulamtxt{font-size: 14px; line-height: 14px;}
+	.card-container-outerinner{right: 2%;}
+	.pendulamline-inner{left: 68%;}
+	.continue-journey-link{position: relative; right: inherit; top: 0; text-align: center; margin: 15px 0;}
+	.continue-journey-link a{font-size: 15px;}
+	.aadharblock{width: 100%;}
+	.edBottomTerms2{width: 100%;}
+	.edBottomTerms2 p{width: 90%;}
+	.aadhar-heading{font-size:24px;}
+	.inputbox{width: 30%; margin-right: 5%;}
+	.mobVersion .inputbox{width: 47%;}
+	.inputbox.width100{max-width: 100%; width: 100%;}
+	/* .aadhar-heading{margin-top: 0;} */
+	/* .input span{font-size: 16px;}
+	.inputdob{font-size: 16px;} */
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+.innerContainer .selectText,label.input span, .input input,.input select,.inputdob{font-size: 17px;}
+
+}
+@media only screen and (max-width:980px) {
+.data_block3 .inputbox{width: 47%;}
+.marginright {
+    margin-right: 0!important;
+}
+.marginright.margin-right{
+    margin-right: 5%!important;
+}
+.edBottomCheckbox2 label{margin-top: 2px;}
+}
+
+@media only screen and (max-width:768px) {
+
+}
+
+@media only screen and (max-width:767px) {
+.inputbox{width: 100%;}
+.phonelandscapeclear{clear: both;}
+.data_block3 .inputbox{width: 100%;}
+}
+@media only screen and (max-width:520px) {
+
+}
+@media only screen and (max-width:480px) {
+
+}
+@media only screen and (max-width:479px) {
+	.inputbox{left: 50%; position: relative; transform: translateX(-50%); -webkit-transform: translateX(-50%); -o-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); width: 100%; margin-right: 0; margin-top: 6%;}
+}
+@media only screen and (max-width:360px) {
+.innerContainer .selectText,label.input span, .input input,.input select,.inputdob{font-size: 17px;}
+.edBottomTerms2 label{width: 92%;}
+
+}

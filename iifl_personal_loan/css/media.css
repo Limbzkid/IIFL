@@ -1,0 +1,598 @@
+@media only screen and (min-width: 1576px) and (max-width: 1600px) {
+.approval-wrap { padding-bottom: 160px }
+}
+@media only screen and (min-width: 1332px) and (max-width: 1575px) {
+.card-container-outerinner { right: 3.2%; }
+/* .card-container{right:1px !important; top:45px !important;}
+.card-container1{right:3.2%; top:65px;} 
+.pendulamline-home{right:6.2%}*/
+}
+ @media only screen and (min-width: 1256px) and (max-width: 1331px) {
+header { max-width: 100%; }
+.header-inner { width: 95%; }
+.innerbody-home { max-width: 95%; }
+.hometop-container { padding-top: 30px; }
+.loan-amount { padding: 0 20px; font-size: 13px; }
+.total-emi { font-size: 13px; }
+.loan-details { width: 13%; }
+.editarrow { right: -18px; }
+.totalwork { margin-left: 0 !important; }
+.card-container-outerinner { right: 3%; }
+/* .card-container{right:1px !important; top:45px !important;}
+.card-container1{right:3%; top:65px;}
+.pendulamline-home{right:6.2%} */
+/**design2**/
+.edTop div:nth-child(2) { padding-right: 10px; }
+.rsloanamuont { left: 32px; }
+}
+@media only screen and (min-width: 1025px) and (max-width:1300) {
+.ededit div { font-size: 14px!important; }
+}
+@media only screen and (min-width: 1004px) and (max-width:1255px) {
+header { max-width: 100%; }
+.header-inner { width: 95%; }
+.innerbody-home { max-width: 95%; }
+.hometop-container { padding-top: 150px; }
+.forty-eight { width: 175px; }
+.forty-eight .txt48 { top: 100px; font-size: 18px; line-height: 18px; }
+.forty-eight .txt48 span { font-size: 25px; }
+.font18 { font-size: 15px !important; }
+.font24 { font-size: 22px; }
+.red { font-size: 15px; }
+.card-container-outerinner { right: 1%; }
+/* .card-container{right:1px !important}
+.card-container1{right:1%; top:67px;} */
+/* .pendulamline-home{right:2%} */
+
+.loan-details { width: 9%; padding: 0 10px; font-size: 16px; }
+.loan-amount, .total-emi { font-size: 13px; padding: 0 8px; width: 20%; }
+.total-emi { padding-right: 8px; width: 18% }
+.aadhar-wrap { max-width: 85%; margin: 0; }
+.approval-right-container { width: 78%; }
+.aadhar-heading { font-size: 34px; line-height: 25px; }
+.aadhar-heading span { font-size: 15px; }
+.input span { font-size: 16px; line-height: 25px; }
+.input input, .input select, .inputdob { font-size: 16px; }
+.inputhome span { font-size: 16px; line-height: 20px; }
+.inputhome input { font-size: 16px; }
+.edTop { margin: 0 5%; width: 91%; }
+.edcRange { width: 163px; }
+.edTop div { font-size: 16px; }
+.editarrow { right: -12px; }
+.editarrow2 { right: -3px !important; }
+.edContant { width: 675px; }
+.edContant aside { width: 165px; margin: 0 40px; }
+.totalwork { margin-left: 0 !important; }
+.edUperBott { width: 60%; margin: 0 20% 25px; }
+.design2emi { width: 17% !important; }
+/* .rsmonthly{top:0;} */
+.rsloanamuont { left: 5px; }
+}
+ @media only screen and (min-width: 768px) and (max-width:1003px) {
+.header-inner { width: 95%; }
+.card-container-outerhome { width: 160px; }
+/* .card-container1{width:160px; right:0; position:absolute; top:55px;}
+ *//* .card-container-outerinner{right:0; position:absolute;} 
+.card-container{width:110px !important; right:0; position:absolute; top:0 !important;}*/
+/* .pendulamline-home{right:0;} */
+.instant-home, .express-home { top: 40px; font-size: 24px; line-height: 25px; }
+.instant-home { top: 55px; }
+/* .pendulamline-home{height:50px;} */
+.pendulamline-inner { height: 9px; }
+.pendulamtxt { line-height: 22px; font-size: 18px; top: 22px; }
+.hometop-container { padding-top: 115px; }
+/**design2**/
+.heightdesign2 { height: calc(100vh - 96px); min-height: 800px; }
+.eligibleDetail { width: 100%; }
+.edTop { float: none; margin: 0 auto; padding-bottom: 65px; width: 690px; }
+.edTop div:nth-child(1) { width: 39% }
+/* .edTop div strong{display:block; text-align:center; padding-left:0; margin-top:5px;} */
+.editarrow { right: 8px; }
+.companyname-changetop, .companysallery-widthtop { text-align: left; width: 75%; }
+/*.edContant{margin:0; width:100%;}
+.design2emi{width:16% !important;}
+.edContant aside{width:25.3%;}*/
+.edContant { margin: 0 auto; width: 682px; }
+.edContant aside { width: 215px; margin: 0 30px 0 0; }
+.edContant aside:nth-child(2) { padding: 6px 30px 12px 30px; margin-right: 30px; }
+.design2emi { width: 130px !important; margin: 0 !important; }
+.edUperBott { width: 60%; margin: 0 20% 25px; }
+.companyedit { padding-left: 0 !important; }
+/* .rsmonthly{left:60px;} */
+.edcRange { width: 215px; }
+.rsloanamuont { left: 11px }
+/**design3**/
+#updatehide { width: 96%; }
+.loan-detailbox { width: 96.8%; }
+.strongcom-inner { padding-left: 0 !important }
+.strong-inner { padding-left: 0 !important }
+.approval-wrap { margin: 30px 0 0 0px }
+/*.approval-leftpoints{float:none; width:90%; margin:0 auto 30px; text-align:center; border-bottom:1px solid #d7e4e5;}*/
+.approval-leftpoints { float: none; width: 94%; margin: 0 auto 30px; text-align: left; border-bottom: 1px solid #d7e4e5; }
+.emi-quoteicon { display: inline-block; width: 120px; float: left; }
+.emi-quoteicon:before { position: absolute; content: ''; height: 2px; width: 120px; top: 15px; background: #215b98; z-index: -10; }
+.lasticon:before { display: none !important; }
+.emi-quoteicon img { width: 29px; left: -1px; position: relative }
+.lefticons-line { display: inline-block; background: url(../images/line1.png) center top repeat-x; height: 45px; display: none; }
+.approval-right-container { width: 90%; float: none; margin: 0 auto }
+.innerbody-home { height: calc(100vh - 96px); /* min-height:730px; */ }
+.aadhar-heading { font-size: 35px; }
+.detailwrap-line1 { margin-bottom: 30px; }
+.detailfields { margin: 30px 4% 20px 0; }
+.input span { font-size: 16px; line-height: 25px; }
+.input input, .input select, .inputdob { font-size: 16px; line-height: 25px; }
+.input select { padding: 0px 0 3px 0; background-position: 98% 60%; }
+.empdetail-box { font-size: 16px; }
+.totalwork { margin-left: 0 !important; }
+}
+ @media only screen and (min-width: 600px) and (max-width:767px) {
+/* header .logo{width:130px; margin:10px 20px 6px 0} 
+header .personal-loan{width:150px; margin-top:12px;}*/
+.header-inner { width: 95%; }
+.card-container-outerhome { width: 120px; }
+/* .card-container1{width:120px; right:0; position:absolute; top:0px;} */
+/* .pendulamline-home{right:0;} */
+.pendulamline-inner { height: 9px; }
+/* .card-container-outerinner{right:0; position:absolute} */
+/* .card-container{width:97px !important;  right:0 !important; top:0 !important;}
+ */.pendulamtxt { line-height: 18px; font-size: 16px; top: 22px; }
+.instant-home, .express-home { top: 25px; font-size: 20px; line-height: 25px; }
+.instant-home { top: 35px; }
+/* .pendulamline-home{height:20px; display:none} */
+.hometop-container { padding-top: 50px; }
+.hometop-container h1 { font-size: 30px; }
+.inputhome span { font-size: 16px; line-height: 20px; }
+.inputhome input { font-size: 16px; }
+.salaryinput { font-size: 16px; }
+.rupeeicon { font-size: 18px; }
+.leftvalue, .rightvalue { font-size: 11px; }
+.selectcity-home { font-size: 16px; }
+.homecityradio label { font-size: 16px; }
+.homecityradio label:before { top: 1px; }
+.hometop-container h1 span { font-size: 14px; line-height: 14px; }
+.innerbody-home { height: calc(100vh - 75px); /* min-height:730px; */ }
+.min-heightscreen1, .min-heightscreen2, .min-heightscreen3 { min-height: 470px !important; }
+.next-home { margin-top: 50px; }
+#error-user, .mobie-errormsg, .email-errormsg { text-align: right; font-size: 11px; }
+/* .headerRefID{position:absolute; right:45px; top:47px; margin:0; font-size:13px;} */
+/**design2**/
+.heightdesign2 { height: calc(100vh - 96px); min-height: 900px; }
+/* .eligibleDetail{width:100%;} */
+/* .edTop{float:none; margin:0 auto; padding-bottom:55px; width:550px;} */
+.edTop div:nth-child(1) { width: 38% }
+.edNav { font-size: 20px; }
+.edNav a { font-size: 13px; }
+.edTop div { font-size: 16px; }
+/* .edTop div strong{display:block; text-align:center; padding-left:0; margin-top:0px;}
+ */.editarrow { right: 8px; }
+.companyname-changetop, .companysallery-widthtop { text-align: left; width: 75%; font-size: 12px; }
+.edContant { margin: 0 auto; width: 531px; }
+.design2emi { width: 100% !important; float: none !important; margin: 10px auto 0 !important; padding: 15px 0 0 0 !important; border-top: 1px solid #d7e4e5; }
+.edContant aside { width: 235px; margin: 0 30px 0 0; }
+.edContant aside:nth-child(2) { border-right: none; padding: 6px 0 12px 30px }
+.edUperBott { width: 68%; margin: 0 auto 25px; }
+.edBottom { width: 80%; }
+.clr1 { clear: both; }
+.edcRange { width: 235px; background-size: 100% }
+.companyedit { padding-left: 0 !important; }
+/* .rsmonthly{left:48px; font-size:15px; top:1px;} */
+.rsapply { font-size: 17px; }
+/**design3**/
+#updatehide { width: 96%; }
+.loan-detailbox { width: 96.8%; display: inherit }
+.loan-details { display: inherit; width: auto; border-bottom: 1px solid #4d7cad; padding-bottom: 7px; border-right: none; }
+.loan-amount { font-size: 13px; padding: 10px 10px 0 }
+.total-emi { width: 18%; font-size: 12px; }
+.strongcom-inner { padding-left: 0 !important }
+.strong-inner { padding-left: 0 !important }
+.approval-wrap { margin: 30px 0 0 0px }
+.approval-leftpoints { float: none; width: 95%; margin: 0 auto 30px; text-align: left; border-bottom: 1px solid #d7e4e5; }
+.emi-quoteicon { display: inline-block; width: 94px; float: left; }
+/*.approval-leftpoints{float:none; width:95%; margin:0 auto 30px; text-align:center; border-bottom:1px solid #d7e4e5;}
+.emi-quoteicon{display:inline-block; width:138px;}*/
+.emi-quoteicon:before { position: absolute; content: ''; height: 2px; width: 94px; top: 15px; background: #215b98; z-index: -10; }
+.lasticon:before { display: none !important; }
+.emi-quoteicon img { width: 29px; left: -1px; position: relative }
+.lefticons-line { display: inline-block; background: url(../images/line1.png) center top repeat-x; height: 45px; display: none; }
+.approval-right-container { width: 95%; float: none; margin: 0 auto }
+.innerbody-home { height: calc(100vh - 75px);/*  min-height:730px; */ }
+.aadhar-heading { font-size: 32px; }
+.detailwrap-line1 { margin-bottom: 30px; }
+.detailfields { margin: 30px 4% 20px 0; }
+.input span { font-size: 16px; line-height: 25px; }
+.input input, .input select, .inputdob { font-size: 16px; line-height: 25px; }
+.input select { padding: 0px 0 3px 0; background-position: 98% 60%; }
+.empdetail-box { font-size: 16px; }
+.totalwork { margin-left: 0 !important; }
+.screen01img, .screen02img, .screen03img, .screen04img, .screen05img { position: absolute; bottom: 0; }
+.innerbody-home { height: auto;/*  min-height: 767px; */ }
+.eligibleDetail .coaadhar div { padding-top: 10px!important; padding-bottom: 10px!important; min-height: 100%; }
+}
+ @media only screen and (min-width: 480px) and (max-width:599px) {
+/* header .logo{width:120px; margin:20px 10px 15px 0; padding-right:18px;} 
+header .personal-loan{width:135px; margin-top:23px;}*/
+.header-inner { width: 95%; }
+.card-container-outerhome { width: 90px; }
+/* .card-container1{width:90px; right:0; position:absolute; top:0} */
+/* .pendulamline-home{display:none;}
+.pendulamline-inner{height:9px; display:none} */
+/*.card-container-outerinner{right:0; position:absolute}
+ .card-container{width:75px !important; right:0 !important; position:absolute; top:0 !important;} */
+.pendulamtxt { line-height: 16px; font-size: 14px; top: 15px; }
+.instant-home, .express-home { top: 17px; font-size: 14px; line-height: 18px; }
+.instant-home { top: 24px; }
+/* .pendulamline-home{height:14px;} */
+.hometop-container { padding-top: 20px; }
+.hometop-container h1 { font-size: 26px; }
+.inputhome span { font-size: 16px; line-height: 20px; }
+.inputhome input { font-size: 16px; }
+.salaryinput { font-size: 16px; }
+.rupeeicon { font-size: 18px; }
+.leftvalue, .rightvalue { font-size: 11px; }
+.selectcity-home { font-size: 16px; text-indent: 76px; }
+.selecthome-radiobox { padding-left: 76px; }
+.homecityradio label { font-size: 16px; }
+.homecityradio label:before { top: 1px; }
+.hometop-container h1 span { font-size: 14px; line-height: 14px; }
+.innerbody-home { height: calc(100vh - 89px); /* min-height:630px; */ }
+.min-heightscreen1, .min-heightscreen2, .min-heightscreen3 { min-height: 380px !important; }
+.next-home { margin-top: 50px; }
+#error-user, .mobie-errormsg, .email-errormsg { text-align: right; font-size: 11px; }
+.companyname2, .companyname { margin-top: 20px }
+/* .headerRefID{position:absolute; right:0px; bottom:-3px; margin:0; font-size:12px; width:auto; z-index:100} */
+/**design2**/
+.heightdesign2 { height: calc(100vh - 96px); min-height: 900px; }
+.eligibleDetail { width: 100%; }
+/* .edTop{float:none; margin:0 auto; padding:20px 0 55px 0; width:450px;} */
+.edTop div:nth-child(1) { width: 39% }
+.edNav { font-size: 20px; padding-top: 10px; }
+.edNav a { font-size: 13px; display: block; width: 90px; margin: 8px auto 0 }
+.edTop div { font-size: 16px; }
+/* .edTop div strong{display:block; text-align:center; padding-left:0; margin-top:0px;} */
+.editarrow { right: 8px; }
+.companyname-changetop, .companysallery-widthtop { text-align: left; width: 75%; font-size: 12px; }
+.edContant { margin: 0 auto; width: 441px; }
+.design2emi { width: 100% !important; float: none !important; margin: 10px auto 0 !important; padding: 15px 0 0 0 !important; border-top: 1px solid #d7e4e5; }
+.edContant aside { width: 200px; margin: 0 20px 0 0; }
+.edContant aside:nth-child(2) { border-right: none; padding: 6px 0 12px 20px }
+.edUperBott { width: 95%; margin: 0 auto 25px; padding-bottom: 10px; }
+.edBottom { width: 95%; }
+.clr1 { clear: both; }
+.edcRange { width: 200px; background-size: 120% 120% }
+.companyedit { padding-left: 0 !important; }
+/* .rsmonthly{left:33px; font-size:16px;} */
+.rsloanamuont { left: 14px; top: 37px; }
+.rsapply { font-size: 17px; }
+/**design3**/
+#updatehide { width: 96%; }
+.loan-detailbox { width: 95.8%; display: inherit }
+.loan-details { display: inherit; width: auto; border-bottom: 1px solid #4d7cad; padding-bottom: 7px; border-right: none; }
+.loan-amount { font-size: 13px; padding: 10px 7px 0 }
+.total-emi { width: 15%; padding-right: 8px; font-size: 12px; }
+.strongcom-inner { padding-left: 0 !important }
+.strong-inner { padding-left: 0 !important }
+.approval-wrap { margin: 30px 0 0 0px }
+/*.approval-leftpoints{float:none; width:95%; margin:0 auto 30px; text-align:center; border-bottom:1px solid #d7e4e5;}
+.emi-quoteicon{display:inline-block; width:110px; font-size:12px;}
+.emi-quoteicon:before{position:absolute; content:''; height:2px; width:113px; top:15px; background:#215b98; z-index:-10;}*/
+.approval-leftpoints { float: none; width: 95%; margin: 0 auto 30px; text-align: left; border-bottom: 1px solid #d7e4e5; }
+.emi-quoteicon { display: inline-block; width: 75px; float: left; font-size: 12px; }
+.emi-quoteicon:before { position: absolute; content: ''; height: 2px; width: 75px; top: 15px; background: #215b98; z-index: -10; }
+.lasticon:before { display: none !important; }
+.emi-quoteicon img { width: 29px; left: -1px; position: relative }
+.lefticons-line { display: inline-block; background: url(../images/line1.png) center top repeat-x; height: 45px; display: none; }
+.approval-right-container { width: 95%; float: none; margin: 0 auto }
+.aadhar-heading { font-size: 28px; }
+.detailwrap-line1 { margin-bottom: 30px; }
+.detailfields { margin: 20px 8% 20px 0; width: 42%; }
+.input span { font-size: 16px; line-height: 25px; }
+.input input, .input select, .inputdob { font-size: 16px; line-height: 25px; }
+.input select { padding: 0px 0 3px 0; background-position: 98% 60%; }
+.empdetail-box { font-size: 16px; margin: 20px 0; padding-left: 4px; }
+.empdetail-date { padding: 0; margin-top: 15px; display: block }
+.totalwork { margin-left: 4px !important; }
+.edBottomTerms2 { margin-left: 5px; }
+.screen01img, .screen02img, .screen03img, .screen04img, .screen05img { position: absolute; bottom: 0; }
+.innerbody-home { height: calc(100vh - 65px); /* min-height: 599px; */ }
+}
+ @media only screen and (min-width: 320px) and (max-width:479px) {
+/* header .logo{width:95px; margin:10px 10px 5px 0; padding-right:10px;} 
+header .personal-loan{width:110px; margin-top:10px;}*/
+.header-inner { width: 95%; }
+/* .card-container1{width:59px; right:0; position:absolute; top:0} */
+/* .pendulamline-home{display:none;}
+.pendulamline-inner{height:9px; display:none} */
+/*.card-container-outerinner{right:0; position:absolute}
+ .card-container{width:46px !important; right:8px !important; position:absolute; top:0 !important;}
+ */.pendulamtxt { line-height: 10px; font-size: 9px; top: 10px; }
+.instant-home, .express-home { top: 12px; font-size: 11px; line-height: 13px; }
+.instant-home { top: 15px; }
+/* .pendulamline-home{height:14px;} */
+.hometop-container { padding-top: 40px; }
+.hometop-container h1 { font-size: 24px; }
+.inputhome span { font-size: 16px; line-height: 20px; }
+.inputhome input { font-size: 16px; }
+.salaryinput { font-size: 16px; }
+.rupeeicon { font-size: 18px; }
+.leftvalue, .rightvalue { font-size: 11px; }
+.selectcity-home { font-size: 16px; text-indent: 12px; }
+.selecthome-radiobox { padding-left: 12px; }
+.homecityradio label { font-size: 16px; }
+.homecityradio label:before { top: 1px; }
+.hometop-container h1 span { font-size: 14px; line-height: 14px; }
+.innerbody-home { height: calc(100vh - 58px);/*  min-height:500px; */ }
+.min-heightscreen1, .min-heightscreen2, .min-heightscreen3 { min-height: 380px !important; }
+.next-home { margin-top: 50px; }
+#error-user, .mobie-errormsg, .email-errormsg { text-align: right; font-size: 11px; }
+.companyname2, .companyname { margin-top: 20px }
+.salary-slider { width: 305px; background-size: 100%; }
+.sceeen4form { width: 85% !important; }
+.selectcity-homebox { width: 85% !important; }
+.formterms { width: 95%; }
+/* .headerRefID{position:absolute; right:0px; bottom:-3px; margin:0; font-size:10px; width:auto; z-index:100} */
+/**design2**/
+.heightdesign2 { height: calc(100vh - 96px); min-height: 1070px; }
+.eligibleDetail { width: 100%; }
+/* .edTop{float:none; margin:0 auto; padding:20px 0 45px 0; width:310px;} */
+.edTop div:nth-child(1) { width: 39% }
+.edNav { font-size: 14px; padding: 10px 0 20px; }
+.edTop div { font-size: 12px; line-height: 18px; }
+.edTop div:nth-child(1) { width: 40%; }
+/* .edTop div strong{display:block; text-align:center; padding-left:0; margin-top:0px;} */
+.editarrow { right: 8px; width: 11px; }
+.companyname-changetop, .companysallery-widthtop { text-align: left; width: 75%; font-size: 12px; }
+.edContant { margin: 0; width: 100%; }
+.design2emi { width: 100% !important; float: none !important; margin: 10px auto 0 !important; padding: 15px 0 0 0 !important; border-top: 1px solid #d7e4e5; }
+.edContant aside { width: 270px; float: none; margin: 0 auto }
+.edContant aside:nth-child(2) { border-right: none; padding: 0; margin: 30px auto 0 }
+.edUperBott { width: 95%; margin: 0 auto 25px; padding-bottom: 10px; }
+.edBottom { width: 81%; }
+.clr1 { clear: both; }
+.edcRange { width: 270px; background-size: 120% 120% }
+.paddsmall { margin-top: 30px !important; }
+.edBottomBox { width: 45%; margin: 0 0 0 5%; }
+.edBottomBox h1, .edBottomBox h2, .edBottomBox h3 { font-size: 14px; }
+.companyedit { padding-left: 0 !important; }
+/* .rsmonthly{left:15px; font-size:12px;} */
+.rsapply { font-size: 12px; }
+/**design3**/
+#updatehide { width: 96%; }
+.loan-detailbox { width: 93%; display: inherit }
+.loan-details { display: inherit; width: auto; border-bottom: 1px solid #4d7cad; padding-bottom: 5px; border-right: none; font-size: 14px; }
+.loan-amount { font-size: 12px; padding: 10px 10px 0 0; display: block; width: 45%; float: left; border: none; text-align: left; line-height: 18px; border-right: 1px solid #4d7cad; }
+.loanamout-small { border: 0; float: right; padding-right: 0; }
+.total-emi { width: 48.7%; padding-right: 0; font-size: 12px; display: block; float: right; text-align: left; border-left: 1px solid #4d7cad; }
+.strongcom-inner { padding-left: 0 !important }
+.strong-inner { padding-left: 0 !important }
+.none { display: block; }
+.approval-wrap { margin: 30px 0 0 0px }
+/*.approval-leftpoints{float:none; width:95%; margin:0 auto 0; text-align:center; border-bottom:1px solid #d7e4e5;}
+.emi-quoteicon{display:inline-block; width:72px; font-size:11px;}
+.emi-quoteicon:before{position:absolute; content:''; height:2px; width:75px; top:15px; background:#215b98; z-index:-10;}*/
+.approval-leftpoints { float: none; width: 100%; margin: 0 auto 30px; text-align: left; border-bottom: 1px solid #d7e4e5; }
+.emi-quoteicon { display: inline-block; width: 53px; float: left; font-size: 10px; }
+.emi-quoteicon:before { position: absolute; content: ''; height: 2px; width: 53px; top: 15px; background: #215b98; z-index: -10; }
+.lasticon:before { display: none !important; }
+.emi-quoteicon img { width: 29px; left: -1px; position: relative }
+.lefticons-line { display: inline-block; background: url(../images/line1.png) center top repeat-x; height: 45px; display: none; }
+.approval-right-container { width: 95%; float: none; margin: 0 auto }
+.aadhar-heading { font-size: 32px; }
+.detailwrap-line1 { margin-bottom: 30px; }
+.detailfields { margin: 30px 4% 20px 0; }
+.input span { font-size: 16px; line-height: 25px; }
+.input input, .input select, .inputdob { font-size: 16px; line-height: 25px; }
+.input select { padding: 0px 0 3px 0; background-position: 98% 60%; }
+.empdetail-box { font-size: 16px; }
+.totalwork { margin-left: -5px !important; }
+.screen01img, .screen02img, .screen03img, .screen04img, .screen05img { position: absolute; bottom: 0; }
+.innerbody-home { height: calc(100vh - 58px);/*  min-height: 485px; */ }
+.edBottomTerms2 { width: 100%!important; }
+.edBottomTerms2 p { width: 85%!important; }
+}
+ @media only screen and (min-width: 640px) and (max-width:1024px) {
+.ededit div { line-height: 45px; }
+}
+ @media only screen and (max-width:1024px) {
+.card-container-outerhome { width: 59px!important; }
+.card-container, .card-container1 { width: 59px!important; top: 5px!important; right: 0px!important; }
+.knowmore .pendulamtxt, .card__back .pendulamtxt { font-size: 9px; line-height: 10px; top: 10px; }
+.card-container-outerhome { position: absolute; right: 0; top: 0; width: 201px; }
+.card__front .pendulamtxt { font-size: 11px!important; line-height: 13px!important; top: 12px!important; }
+.headerRefID { position: relative; float: left; width: 100%; text-align: center; margin: 10px 0 0; }
+.edTop div:nth-child(2) { border-left: none; }
+.edTop div { min-height: 53px; border-right: 1px solid #d7e4e5; }
+/* .width10{height: 53px!important; overflow:hidden; clear: both!important; float: left!important;} */
+.brightnone { border-right: none!important; }
+.edTop div:last-child { border-right: none!important; }
+.edTop { float: left; padding: 10px 5px; }
+header .logo { padding-right: 10px; }
+header .logo, header .personal-loan { margin: 0 10px 0 0; width: 100px; }
+.header-inner { padding: 10px 5px; }
+.card-container-outerinner { position: absolute; right: 0px; top: 0px; width: 59px!important; }
+.edTop div:nth-child(3) { width: 26%; }
+.edTop div strong { padding-left: 0!important; display: block; }
+.edTop div strong .rsmonthly { position: relative; }
+.marbott3 { margin-bottom: 6px!important; }
+.congrates-wrap { width: 90%; }
+.congrates-loanamount { width: 100%; margin: 10px 0; }
+.loandetail-congrates { border-bottom: none; }
+.verifyWrap .loandetail-congrates .congrates-percent.transWidth { width: 49.6%; }
+.verifyWrap .loandetail-congrates .congrates-percent.bn { width: 49.6%; }
+.verifyWrap .loandetail-congrates .congrates-percent.status { width: 100%; }
+.loandetail-congrates .congrates-percent { width: 49.6%; border-bottom: 1px solid #d7e4e5 !important; }
+.loandetail-congrates .congrates-percent:nth-child(3) { border-left: none; }
+.thankspage { width: 95%; float: none; margin: 40px auto; }
+/* .pendulamline-inner, .pendulamline-home{display: none;} */
+.instant-home, .express-home { font-size: 11px!important; line-height: 13px!important; top: 12px!important; }
+.design18Head { font-size: 24px; }
+.docUpload { font-size: 16px; }
+.docUpload a { padding: 0 20px; }
+#emidiv { padding-left: 0; }
+.knowyour .input { float: left; margin: 10px 0; }
+.approval-wrap { padding-bottom: 0; }
+.detailfields { margin: 0; width: 100%!important; }
+.input input, .input select, .inputdob { padding-bottom: 5px; }
+.rstotalemi { display: inline-block; }
+.companysallery-widthtop { width: auto; display: inline-block; text-align: left; }
+.eligibleDetail .edTop { width: 100%; margin: 0; padding: 0; }
+.eligibleDetail .edTop div { width: 32%; padding-left: 5px; text-align: left; }
+.subcanclegroup { width: 100%!important; text-align: center!important; min-height: auto!important; line-height: 0!important; left: 50%!important; transform: translate(-50%, -50%)!important; -moz-transform: translate(-50%, -50%)!important; -webkit-transform: translate(-50%, -50%)!important; -o-transform: translate(-50%, -50%)!important; position: absolute!important; top: 50%!important; line-height: 50px!important; }
+.coaadhar div:nth-child(2) { box-sizing: inherit!important; }
+.coaadhar div:last-child { border-bottom: none; }
+.coaadhar { margin-bottom: 15px!important; }
+.chkpersonal-info { width: auto; margin-right: 2%; margin-bottom: 10px; }
+.empdate { width: 96%!important; }
+.join-date #error-user { left: 0; }
+.slider-residence { width: 100%; }
+.aadhar-heading { font-size: 27px; margin-bottom: 15px; }
+.inputcheckbx label { font-size: 13px; padding-top: 4px; }
+.approval-wrap .input select { max-width: 60%; }
+.homesubmit, #verifyManMobNo { padding: 7px 14px; font-size: 16px; }
+#bankStmtFrm select { width: 100%; }
+.next-home .homesubmit { background: #215b98; }
+.screen05img { position: relative; }
+.screen5, .manualvarification { height: auto; }
+.detailfields.dob { margin-top: 11px; }
+.edBottomSubmit, .applybtn, .homesubmit, .aadharsubmit, .ios-btn { -webkit-appearance: none; }
+.loan-amount { text-align: left; font-size: 12px!important; width: 42%; min-height: auto; }
+.hometop-container { top: auto; transform: translate(0, 0); padding-top: 40px; position: relative; }
+.pendulamline-home, .pendulamline-inner { text-align: center; width: 1px; left: 50%; height: 15px; overflow: hidden; }
+.total-emi { width: auto; padding-left: 10px; padding-right: 10px; font-size: 12px; text-align: left; }
+input { -webkit-border-radius: 0; border-radius: 0; -webkit-appearance: none; }
+.companylist:disabled, .companysallery-widthtop:disabled, .companyname-changetop:disabled { -webkit-text-fill-color: #215b98; opacity: 1; }
+.edBottomCheckbox2 label { left: 0; right: auto; top: 3px; }
+.edBottomTerms2 p { padding-left: 0px; width: 80%; }
+.eduhead { margin-top: 11px; }
+.marginbott22 { margin-bottom: 22px!important; }
+.city-errormsg { right: auto; left: 44%; transform: translate(-50%, 0); -webkit-transform: translate(-50%, 0); -o-transform: translate(-50%, 0); -moz-transform: translate(-50%, 0); }
+.empdetail-date #error-user { right: 20px; }
+.aadhar-wrap .aadhar-tcbox { width: 100%; }
+.edTop .rsmonthly { font-size: 12px; top: 1px; padding-right: 1px; }
+.ededit .rsmonthly { font-size: 16px; }
+.edTop div, .companyname-changetop, .companysallery-widthtop { font-size: 12px; }
+.loaderContainer { clear: both; margin: 10px 0; }
+.tnc-popup-txt { width: 90%; padding: 45px 3%; }
+.loandetail-congrates .congrates-percent span { display: block; }
+.marginadjust { margin: 10px 0 15px; width: 93%; }
+.screen01img, .screen02img, .screen03img, .screen04img, .screen05img { width: 100%; }
+.screen5 { min-height: auto!important; }
+.mpaddtop12 { padding-top: 12px; }
+.mmargin-bott20 { margin-bottom: 20px; }
+.continue-journey-link { right: 71px; top: 20px; }
+.paddtp0 { padding-top: 0; }
+.coappcontainer .eligibleDetail { margin: 20px 0; clear: both; position: relative; float: left; left: 50%; transform: translate(-50%, 0); -moz-transform: translate(-50%, 0); -webkit-transform: translate(-50%, 0); -o-transform: translate(-50%, 0); -ms-transform: translate(-50%, 0); }
+.coappcontainer #updatehide { clear: both; }
+.coappcontainer .co-app-tab-child { margin-top: 0!important; }
+.coappcontainer .approval-wrap { margin-top: 20px!important; }
+.coappcontainer .uploadsubmit { float: left; position: relative; left: 50%; transform: translate(-50%, 0); -moz-transform: translate(-50%, 0); -webkit-transform: translate(-50%, 0); -o-transform: translate(-50%, 0); -ms-transform: translate(-50%, 0); }
+.edNav a { font-size: 13px; display: block; width: 90px; margin: 0px auto 0; padding: 4px 8px; }
+.pos-abs { position: absolute; }
+.eligibleDetail .coaadhar div:nth-child(even) { border-right: none!important; }
+.coappknowcusttab1 .placholderval { margin-bottom: 2px; }
+.coappknowcusttab1 .input { margin-top: 2px; }
+.coappknowcusttab1 .detailfields { margin-bottom: 10px; }
+.width20 { line-height: 23px!important; width: 28%!important; }
+.width10 { width: 10%!important; border-right: none!important; text-align: center!important; }
+.mobtextcenter { text-align: center!important; }
+.subicons, .cancelarrow { width: 21px!important; height: 21px!important; background-size: 90%!important; -webkit-background-size: 90%!important; -o-background-size: 90%!important; -moz-background-size: 90%!important; -ms-background-size: 90%!important; margin: 2px!important; padding: 0!important; float: left!important; appearance: none; -webkit-appearance: none; -moz-appearance: none; -o-appearance: none; -ms-appearance: none; border-radius: 50%; }
+.pencilicon { width: 29px!important; height: 29px!important; background-size: 100% auto!important; -moz-background-size: 100% auto!important; -webkit-background-size: 100% auto!important; -o-background-size: 100% auto!important; -ms-background-size: 100% auto!important; appearance: none; -webkit-appearance: none; -moz-appearance: none; -o-appearance: none; -ms-appearance: none; border-radius: 50%!important; }
+}
+@media only screen and (max-width:1000px) {
+.width57 { width: 18%!important; vertical-align: top!important; word-wrap: break-word; line-height: 20px; }
+.pagin-detail { display: block; }
+.mobcenter { float: left; clear: both; position: relative; left: 50%; transform: translate(-50%, 0); -webkit-transform: translate(-50%, 0); -moz-transform: translate(-50%, 0); -o-transform: translate(-50%, 0); }
+.co-app-tab-child { width: 96%!important; }
+.centerall { left: 50%; transform: translate(-50%, 0); -webkit-transform: translate(-50%, 0); -moz-transform: translate(-50%, 0); -o-transform: translate(-50%, 0); margin-top: 30px!important; float: left!important; }
+.mfl { float: left; }
+}
+@media only screen and (max-width:1360px) {
+.eligibleDetail .coaadhar div { width: 46%!important; }
+.coaadhar { border-bottom: none!important; }
+.coaadhar div:last-child { border-bottom: 1px solid #d7e4e5!important; }
+.coaadhar div { width: 90%!important; border-right: none; border-bottom: 1px solid #d7e4e5; min-height: 50px; text-align: center!important; }
+}
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+.innerbody-home { height: calc(100vh - 60px)!important; min-height: 768px; }
+.screen01img, .screen02img, .screen03img, .screen04img, .screen05img { position: absolute; bottom: 0 }
+.screen05img { position: absolute; bottom: 0; }
+.loan-amount { width: 35%; }
+.height-ipad-812 { min-height: 812px; height: auto!important; }
+.screen05img { position: relative; }
+.pos-abs { position: absolute; }
+.full-height { height: calc(100vh - 60px)!important; }
+.screen01img img, .screen02img img, .screen03img img, .screen04img img, .screen05img img { vertical-align: bottom!important; }
+.ipadheight-auto { height: auto!important; }
+.hometop-container h1 { font-size: 24px; }
+.ipadposabs { position: absolute; }
+.ipadhfull { height: auto!important; }
+.subcanclegroup { margin: 13px 0 0 15px!important; }
+.subarrow, .cancelarrow { appearance: none!important; -moz-appearance: none!important; -webkit-appearance: none!important; border-radius: 50%!important; }
+}
+ @media only screen and (max-width:768px) {
+.posrelate { position: relative; }
+/*.pencilicon{background:url(../images/pencil.png) no-repeat top center; width: 36px; height: 36px; border:none; cursor: pointer; top: 50%!important; position: absolute; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); left: 50%!important;} */
+}
+ @media only screen and (max-width:639px) {
+.continue-journey-link { position: relative; right: auto; top: auto; margin: 10px 0; text-align: center; }
+.eligibleDetail .coaadhar div { width: 93%!important; border-right: none!important; }
+.eligibleDetail .coaadhar div { padding-top: 10px!important; padding-bottom: 10px!important; min-height: 100%; }
+.verifyWrap .loandetail-congrates .congrates-percent.transWidth { width: 100%; }
+.verifyWrap .loandetail-congrates .congrates-percent.bn { width: 100%; }
+.verifyWrap .loandetail-congrates .congrates-percent.status { width: 100%; }
+.loandetail-congrates .congrates-percent.bn { border-left: none; }
+}
+ @media only screen and (min-width: 300px) and (max-width:479px) {
+.loanamout-small { float: left; padding-left: 10px; }
+.total-emi { width: 45%; padding: 10px 6% 0 0; float: left; border-left: none; border-right: 1px solid #4d7cad; font-size: 12px; }
+/* .innerbody-home{min-height: 479px;}	 */
+.loan-amount { padding: 10px 10px 0 0; width: 47%; }
+.loanamout-small { float: left; padding-left: 6px; width: 43%; }
+.total-emi { width: 47%; padding-right: 10px; padding-top: 0; }
+.hometop-container { padding-top: 20px; }
+.coaadhar > div { width: 93%!important; border-right: none!important; }
+.edBottomTerms2 p { font-size: 13px; padding-left: 0px; }
+}
+ @media only screen and (max-device-width: 640px) and (orientation: portrait) {
+.innerbody-home { min-height: 501px; }
+.for-mob-height { height: auto; }
+.ur-quote-height { height: auto; }
+.selecthome-radiobox { padding-bottom: 25px; }
+.approval-wrap .input select { max-width: 100%; }
+.select_valall { max-width: 92%; }
+}
+ @media only screen and (max-device-width: 640px) and (orientation: landscape) {
+.innerbody-home { min-height: auto; height: auto; }
+.screen01img, .screen02img, .screen03img, .screen04img, .screen05img { position: relative!important; }
+.res-sliderbox { clear: both; margin-top: 10px; }
+.selecthome-radiobox { padding-bottom: 25px; }
+}
+ @media only screen and (max-width:1024px) {
+.space_right { margin-left: 0px !important; }
+.join-date .input_exp_work #error-user { position: relative; }
+}
+@media only screen and (min-width:1024px) and (max-width:1266px) {
+.loan-detailbox { width: 97%; }
+#updatehide { width: 71%; margin: 15px auto; }
+}
+ @media only screen and (max-width:640px) {
+.emi-quoteicon.width57 { line-height: 17px; }
+#cnamecoappnature { margin-bottom: 15px; }
+.coapp_nature_profession #cnamecoappnature { margin-bottom: 0px; }
+.detailfields { margin: 0 0 10px 0; }
+.approval-right-container { padding: 10px 0 0; }
+.co-app-tab-child { width: 93% !important; padding: 2% 3%; }
+.GO_buttON #error-crmid { bottom: 66px; position: relative; }
+.GO_buttON.aadharbtn .aadharsubmit { display: inline-block; margin: 25px 0 0; }
+.GO_buttON.aadharbtn { clear: left; display: block; float: none; text-align: center; }
+#msform .aadharbtn.GO_buttON { margin: 0px auto 15px; }
+.loaderContainer { margin: 0; }
+.coapp_nature_profession .select_valall { margin-bottom: 10px; }
+}
+@media only screen and (max-width: 560px) {
+.GO_buttON.aadharbtn .aadharsubmit { display: inline-block; margin: 25px 0 0 !important; }
+}
+ @media only screen and (max-width:359px) {
+.loan-amount { width: 100%; padding: 15px 0 0; border: 0; font-size: 14px!important; line-height: 24px; }
+.loanamout-small, .total-emi { width: 100%; padding: 0; border: 0; font-size: 14px!important; line-height: 24px; }
+.salary-slider { margin: 3% 5% 1%; width: 90%; }
+}

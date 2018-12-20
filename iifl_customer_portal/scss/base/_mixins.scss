@@ -1,0 +1,70 @@
+@mixin box-sizing( $type: border-box ) {
+    -webkit-box-sizing: $type;
+       -moz-box-sizing: $type;
+         -o-box-sizing: $type;
+        -ms-box-sizing: $type;
+            box-sizing: $type;
+}
+
+@mixin box-shadow( $type ) {
+    -webkit-box-shadow: $type;
+       -moz-box-shadow: $type;
+         -o-box-shadow: $type;
+        -ms-box-shadow: $type;
+            box-shadow: $type;
+}
+
+@mixin border-radius($radius) {
+  /*.box { @include border-radius(10px); }*/
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin transform-origin($x, $y) {
+  -webkit-transform-origin: $x $y;
+     -moz-transform-origin: $x $y;
+      -ms-transform-origin: $x $y;
+          transform-origin: $x $y;
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+@mixin transform-rotate($val){
+	-webkit-transform:rotate($val);
+	-moz-transform:rotate($val);
+	-ms-transform:rotate($val);
+	-o-transform:rotate($val);
+	transform:rotate($val);
+}
+
+@mixin transform-translate($x:0, $y:0){
+  transform: translate($x, $y);
+  -webkit-transform: translate($x, $y);
+  -moz-transform: translate($x, $y);
+  -o-transform: translate($x, $y);
+  -ms-transform: translate($x, $y);
+}
+
+
+@mixin transition($v1:all, $v2:1s, $v3:ease){
+  transition:$v1 $v2 $v3;
+  -webkit-transition:$v1 $v2 $v3;
+  -moz-transition:$v1 $v2 $v3;
+  -o-transition:$v1 $v2 $v3;
+  -ms-transition:$v1 $v2 $v3;
+}
+
+@mixin breakpoint($point) {
+  @if $point == 715 {
+    @media (max-width: 715px) { @content; }
+  }
+  @else if $point == another-break-point {
+    @media (max-width: 0) { @content; }
+  }
+}

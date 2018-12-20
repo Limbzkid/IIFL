@@ -1,0 +1,54 @@
+@media only screen and (min-width: 1332px) and (max-width: 1575px) {
+
+}
+
+@media only screen and (min-width: 1256px) and (max-width: 1331px) {
+header{max-width:100%;}
+.header-inner{width:95%;}
+.innerbody-home{max-width:95%;}
+.hometop-container{padding-top:30px;}
+.loan-amount{padding:0 2.0%}
+.loan-details{width:13%;}
+}
+@media only screen and (min-width: 1004px) and (max-width:1255px) {
+header{max-width:100%;}
+.header-inner{width:95%;}
+.innerbody-home{max-width:95%;}
+.hometop-container{padding-top:150px;}	
+.forty-eight{width:175px;}
+.forty-eight .txt48{top:100px; font-size:18px; line-height:18px;}
+.forty-eight .txt48 span{font-size:25px;}
+.font18{font-size:15px !important;}
+.font24{font-size:22px;}
+.red{font-size:15px;}
+
+.loan-details{width:9%; padding:0 10px; font-size:16px;}
+.loan-amount, .total-emi{font-size:14px; padding:0 1%; width:20%;}
+.total-emi{padding-right:1%; width:26%}
+.aadhar-wrap{max-width:85%; margin:0;}
+.approval-right-container{width:78%;}
+.aadhar-heading{font-size:34px; line-height:25px;}
+.aadhar-heading span{font-size:15px;}
+.input span{font-size:16px; line-height:25px;}
+.input input{font-size:16px;}
+.inputhome span{font-size:16px; line-height:20px;}
+.inputhome input{font-size:16px;}
+
+.edcRange { width:140px; }
+}
+@media only screen and (min-width: 768px) and (max-width:1003px) {
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width:767px) {
+
+}
+
+@media only screen and (min-width: 480px) and (max-width:599px) {
+
+}
+
+@media only screen and (min-width: 320px) and (max-width:479px) {
+
+}

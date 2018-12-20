@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^([^\.]+)$ $1.php [NC,L]
+</IfModule>
+
+<IfModule php5_module>
+  php_flag session.cookie_httponly on
+</IfModule>
+
+
+

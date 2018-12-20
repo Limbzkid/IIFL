@@ -1,0 +1,190 @@
+@media only screen and (max-width:1024px) {
+
+}
+
+@media only screen and (max-width:800px) {
+#wrapper{
+	.outer-wrapper{
+		.inner-wrapper{
+			.left_section{
+				.search{
+					margin:15px 0 0px 5px;
+				}
+			}
+			.right_section{
+				.setting{
+					padding:0 0px 0 0px;
+				}
+			}
+
+			nav{
+				ul{
+					li{
+						a{padding: 0 24px;}
+						&:last-child{
+							a{padding:0px 11px;}
+						}
+					}
+				}
+			}
+			.col-middle{max-width:645px; width:50%; float:left; margin:12px 12px 0;}
+		} 
+	} 
+}	
+#wrapper .outer-wrapper .inner-wrapper .notifications .notify_list{padding: 10px 0;}
+#wrapper .outer-wrapper .inner-wrapper .notifications .notify_list p{width:77%;}
+#wrapper .outer-wrapper .inner-wrapper .notifications .notify_list a{width:22%; vertical-align: top;}
+#wrapper .outer-wrapper .inner-wrapper .notifications .see_all{margin: 10px 0 20px 20px;}
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li a p,#wrapper .outer-wrapper .inner-wrapper .loan_account_details li:last-child p{width:100%; margin: 5px 0 0 0px;}
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li{width:32.4%;}
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a p,#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li:last-child p{width:100%; margin: 0px 0 10px 0px;}
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li{width:32.4%;}
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li{width:100%;padding:0 20px; }
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li ul.princial_interest_other_details{margin-top:10px; margin-bottom:10px;}
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li ul.princial_interest_other_details li{width:45%;}
+#wrapper .outer-wrapper .inner-wrapper ul.princial_interest_other_details li{ margin: 5px 5px 5px 9px;}
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left,#wrapper .outer-wrapper .inner-wrapper .summary_block_right{width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .disbursed{width:54%;}
+#wrapper .outer-wrapper .inner-wrapper .summary_block_right ul li{width:25%;}
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .outstanding_highchart ul,#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .outstanding_highchart ul li,#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .outstanding_highchart ul li:last-child{width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_summary_block{margin: 4px;}
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper{overflow:scroll;}
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details{width:644px !important;}
+#wrapper .outer-wrapper .inner-wrapper .view_details .clickon{display: none;}
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_amount_disbursed .disbursed{width:53%;}
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .dataTables_scroll{width:644px;}
+#wrapper .outer-wrapper .inner-wrapper .summary_block_right ul li{width:50%;}
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper #gold_loan_view_details_filter{padding:10px;}
+#wrapper .outer-wrapper .inner-wrapper .view_details .clickon{top:50px;margin-right: 2%; width: 90px;}
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number input[type="text"]{width: 100%;}
+#payment_history,#outstanding{width: 800px !important;}
+#wrapper .outer-wrapper .inner-wrapper .col-half-middle{width:544px;}
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .loan-info .form-control label{width:50%;}
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .loan-info .form-control .selectbg{width:50%;}
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender input[type="text"]{width:86%; margin-bottom: 15px;}
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender span{line-height: 30px; width: 30px;}
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender span.to{margin-left: 0px;}
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender .download_btn{margin-top: 10px;}
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender .download_btn a{font-size: 1.2rem;  margin: 10px 1px 0;  padding: 0 10px;}
+/*
+#wrapper .outer-wrapper .inner-wrapper .statement_download .view_details .select_calender input[type="text"]{width:86%; margin-bottom: 15px;}
+#wrapper .outer-wrapper .inner-wrapper .statement_download .view_details .select_calender span{line-height: 30px; width: 30px;}
+#wrapper .outer-wrapper .inner-wrapper .statement_download .view_details .select_calender span.to{margin-left: 0px;}
+#wrapper .outer-wrapper .inner-wrapper .statement_download .view_details .select_calender .download_btn{margin-top: 10px;}
+#wrapper .outer-wrapper .inner-wrapper .statement_download .view_details .select_calender .download_btn a{font-size: 1.2rem;  margin: 10px 1px 0;  padding: 0 10px;}
+*/
+#wrapper .outer-wrapper .inner-wrapper .feedbackncomplaint .loan-info label{width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .feedbackncomplaint .loan-info input[type="text"]{width: 54%;}
+#wrapper .outer-wrapper .inner-wrapper .feedbackncomplaint .loan-info .selectbg{width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .feedbackncomplaint .loan-info textarea{width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .profile_cust .loan-info .form-control label{width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .profile_cust .loan-info input[type="text"]{width:72%;}
+#wrapper .outer-wrapper .inner-wrapper .profile_cust .loan-info .selectbg{width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .profile_cust .loan-info .profile_info{width: 100%;}
+}
+
+@media only screen and (max-width:767px) {
+#wrapper{
+	.outer-wrapper{
+		.inner-wrapper{
+			.menu {
+				position:relative;
+				
+				ul {
+					width:100%;
+					position:absolute;
+					top:69px;
+					left:0px;
+					padding:0px 0px;
+					background:#303030;
+
+					li {
+						margin:0px 0px 0px 0px;
+						float:none;
+						display:block;
+						
+						a{display:block; line-height:40px;}
+						&:last-child{
+							a{padding:0px 11px;}
+						}
+					}
+
+					&.active {display:none;}
+					&:after {width:0px;	height:0px;	position:absolute;	top:0%;	left:22px;	content:'';	transform:translate(0%, -100%);}
+				}
+				
+				.toggle-nav {
+					padding:20px;
+					float:left;
+					display:block;
+					box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+					border-radius:3px;
+					background:#303030;
+					text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+					color:#777;
+					font-size:20px;
+					transition:color linear 0.15s;
+
+					&:hover{text-decoration:none;color:#66a992;}
+				}
+
+			}
+		} 
+	} 
+}	
+#wrapper .outer-wrapper .inner-wrapper .col-half-middle{width:96%;}
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .loan-info .form-control label{width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .loan-info .form-control .selectbg{width: 100%;}
+}
+
+@media only screen and (max-width:640px) {
+#wrapper .outer-wrapper .inner-wrapper .right_section{margin-top:0px; width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .left_section .search{width:65%;}
+#wrapper .outer-wrapper .inner-wrapper .left_section .search input[type="text"]{width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .left_section{margin-bottom:0px; width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .col-left{max-width:96%; margin-left:12px; }
+#wrapper .outer-wrapper .inner-wrapper .col-middle{max-width:96%; width:100%; margin-left:12px; }
+#wrapper .outer-wrapper .inner-wrapper .col-right{max-width:96%; margin-left:12px; }
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li{float: left; width: 50%;}
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li{width:50%;}
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li ul.princial_interest_other_details li{width:48%;}
+#wrapper .outer-wrapper .inner-wrapper .mobile{position:relative; width:100%; top:0px; right:0px; padding:5px 0 0 15px; font-size:2.4rem; height:40px; line-height:40px;}
+#wrapper .outer-wrapper .inner-wrapper nav{right:0px; top:162px;}
+#wrapper .outer-wrapper .inner-wrapper .right_section .user_welname{margin: 0 5px 0 0;}
+#wrapper .outer-wrapper .inner-wrapper .right_section .setting{width:7% !important;}
+#wrapper .outer-wrapper .inner-wrapper .right_section .contact-faq-set, #wrapper .outer-wrapper .inner-wrapper .right_section .contact_us, #wrapper .outer-wrapper .inner-wrapper .right_section .faq, #wrapper .outer-wrapper .inner-wrapper .right_section .setting{padding: 0 8px 0 0;}
+#wrapper .outer-wrapper .inner-wrapper .right_section .setting .setting_icon{ackground: rgba(0, 0, 0, 0) url("../images/header_sprite.png") no-repeat scroll -53px -2px;margin: 0 3px;}
+}
+
+@media only screen and (max-width:480px) {
+#wrapper .outer-wrapper .inner-wrapper nav{  top: 210px;}
+#wrapper .outer-wrapper .inner-wrapper .left_section .search{width: 95%;margin: 8px 0 8px 5px;}
+#wrapper .outer-wrapper .inner-wrapper .col-left{width:94%;}
+#wrapper .outer-wrapper .inner-wrapper .col-right{width:94%;}
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li{width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .col-middle{width:94%;}
+#wrapper .outer-wrapper .inner-wrapper .pre_apprv_loan p{width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .notifications .notify_list p{width:74%; margin-right:5px;}
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li{width:100%; margin-bottom:12px;}
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li a div{width:28%;}
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li a p, #wrapper .outer-wrapper .inner-wrapper .loan_account_details li:last-child p{ margin: 15px 0 0; width: 40%;}
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li{width:100%; margin-bottom:12px;}
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a div{width:28%;}
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a p, #wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li:last-child p{ margin: 22px 0 0; width: 40%;}
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li{width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .right_section .user_welname{margin: 0 -3px 0 0;}
+#wrapper .outer-wrapper .inner-wrapper .right_section .contact-faq-set, #wrapper .outer-wrapper .inner-wrapper .right_section .contact_us, #wrapper .outer-wrapper .inner-wrapper .right_section .faq, #wrapper .outer-wrapper .inner-wrapper .right_section .setting, #wrapper .outer-wrapper .inner-wrapper .right_section .contact_us, #wrapper .outer-wrapper .inner-wrapper .right_section .faq, #wrapper .outer-wrapper .inner-wrapper .right_section .setting{padding: 0 6px 0 0;}
+#wrapper .outer-wrapper .inner-wrapper .right_section .contact-faq-set, #wrapper .outer-wrapper .inner-wrapper .right_section .contact_us, #wrapper .outer-wrapper .inner-wrapper .right_section .faq, #wrapper .outer-wrapper .inner-wrapper .right_section .setting{font-size:1.2rem;}
+#wrapper .outer-wrapper .inner-wrapper .right_section .contact_us .contact_icon,#wrapper .outer-wrapper .inner-wrapper .right_section .faq .faq_icon,#wrapper .outer-wrapper .inner-wrapper .right_section .user_welname .user_img{margin-right: 3px;}
+#wrapper .outer-wrapper.footer p, #wrapper .outer-wrapper.footer ul{width:100%; text-align:center;}
+#wrapper .outer-wrapper.footer ul li{display:inline-block; float:none;}
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .txt{width:100%; margin-bottom:12px;}
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number{width:100%;}
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number input[type="text"]{margin-left:0px; width:100%; float:left; height:38px; line-height:38px;}
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number input[type="button"]{float:left; margin-left:0px !important; margin-top:10px !important; margin-right:10px;}
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number .resendotp{margin: 18px 0 0 0px;}
+.selectbg,label,.error,#wrapper .outer-wrapper .inner-wrapper .quick-pay .loan-info input[type="text"]{width:100%; margin-left: 0px;}
+.error{margin-top:12px;	}
+#wrapper .outer-wrapper .inner-wrapper .col-half-middle{width:94%;}
+#wrapper .outer-wrapper .inner-wrapper .repay_schedule #repay_schedule_wrapper table.dataTable{width:644px !important;}
+}

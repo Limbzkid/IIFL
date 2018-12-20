@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+Disallow: /iifl_personal_loan/
+Disallow: /iifl-finance/

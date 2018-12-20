@@ -1,0 +1,3388 @@
+/* line 1, ../scss/base/_reset.scss */
+*, :before, :after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-Semibold.eot");
+  src: url("../fonts/MyriadPro-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Semibold.woff2") format("woff2"), url("../fonts/MyriadPro-Semibold.woff") format("woff"), url("../fonts/MyriadPro-Semibold.ttf") format("truetype"), url("../fonts/MyriadPro-Semibold.svg#MyriadPro-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-Bold.eot");
+  src: url("../fonts/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Bold.woff2") format("woff2"), url("../fonts/MyriadPro-Bold.woff") format("woff"), url("../fonts/MyriadPro-Bold.ttf") format("truetype"), url("../fonts/MyriadPro-Bold.svg#MyriadPro-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-Regular.eot");
+  src: url("../fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Regular.woff2") format("woff2"), url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 39, ../scss/base/_reset.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 41, ../scss/base/_reset.scss */
+body {
+  font-family: "Myriad Pro", arial;
+  color: #717171;
+  font-size: 1.4rem;
+}
+
+/* line 43, ../scss/base/_reset.scss */
+input::-webkit-input-placeholder {
+  color: #dcdcdc;
+}
+
+/* line 44, ../scss/base/_reset.scss */
+input:-moz-placeholder {
+  color: #dcdcdc;
+  opacity: 1;
+}
+
+/* line 45, ../scss/base/_reset.scss */
+input::-moz-placeholder {
+  color: #dcdcdc;
+  opacity: 1;
+}
+
+/* line 46, ../scss/base/_reset.scss */
+input:-ms-input-placeholder {
+  color: #dcdcdc;
+}
+
+/* line 48, ../scss/base/_reset.scss */
+a {
+  text-decoration: none;
+  color: #737373;
+  cursor: pointer;
+}
+
+/* line 1, ../scss/base/_common.scss */
+.no-js #loader {
+  display: none;
+}
+
+/* line 2, ../scss/base/_common.scss */
+.js #loader {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0;
+}
+
+/* line 3, ../scss/base/_common.scss */
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(../images/loader-64x/Preloader_2.gif) center no-repeat white;
+}
+
+/* line 12, ../scss/base/_common.scss */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+/* line 17, ../scss/base/_common.scss */
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+/* line 23, ../scss/base/_common.scss */
+#wrapper {
+  /**outer-wrapper end**/
+}
+/* line 26, ../scss/base/_common.scss */
+#wrapper .outer-wrapper {
+  /**inner-wrapper end**/
+}
+/* line 29, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper {
+  display: block;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  /**new menu css start**/
+  /**new menu css end**/
+}
+/* line 35, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_section {
+  float: left;
+  margin: 10px 0;
+}
+/* line 39, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_section .iifl_logo {
+  float: left;
+}
+/* line 42, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_section .iifl_logo a {
+  float: left;
+}
+/* line 44, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_section .search {
+  float: left;
+  margin: 15px 0 0px 30px;
+}
+/* line 48, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_section .search input[type="text"] {
+  width: 100%;
+  background-color: #eeecec;
+  border-radius: 50px;
+  color: #000;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px;
+}
+/* line 52, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .right_section {
+  float: right;
+  margin: 20px 0 0 0;
+}
+/* line 56, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .right_section .contact-faq-set, #wrapper .outer-wrapper .inner-wrapper .right_section .contact_us, #wrapper .outer-wrapper .inner-wrapper .right_section .faq, #wrapper .outer-wrapper .inner-wrapper .right_section .setting {
+  float: left;
+  margin-top: 10px;
+  padding: 0 15px 0 0px;
+  line-height: 22px;
+  position: relative;
+}
+/* line 67, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .right_section .contact_us .contact_icon {
+  float: left;
+  margin-right: 6px;
+  width: 20px;
+  height: 20px;
+  background: url("../images/header_sprite.png") 0 0 no-repeat;
+}
+/* line 72, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .right_section .faq .faq_icon {
+  float: left;
+  margin-right: 6px;
+  width: 20px;
+  height: 20px;
+  background: url("../images/header_sprite.png") -26px -2px no-repeat;
+}
+/* line 75, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .right_section .user_welname {
+  float: left;
+  margin: 0 10px 0 0px;
+  line-height: 22px;
+}
+/* line 80, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .right_section .user_welname .user_img {
+  float: left;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+/* line 81, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .right_section .user_welname .user_name {
+  float: left;
+  margin-top: 10px;
+  position: relative;
+  padding-right: 22px;
+}
+/* line 86, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .right_section .user_welname .user_name #account_info {
+  display: none;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  background-color: white;
+}
+/* line 87, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .right_section .user_welname .user_name #account_info a {
+  display: block;
+  width: 100%;
+  border: 1px solid #e8ebf1;
+  padding: 8px 10px;
+}
+/* line 89, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .right_section .user_welname .user_name #account_info a:hover {
+  background-color: #e8ebf1;
+}
+/* line 94, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .right_section .user_welname .user_name:hover #account_info {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+/* line 96, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .right_section .user_welname .user_name:after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  background: url("../images/down_arrow.jpg") 0 0 no-repeat;
+  width: 11px;
+  height: 10px;
+}
+/* line 100, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .right_section .setting {
+  padding-right: 0px;
+}
+/* line 103, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .right_section .setting .setting_icon {
+  display: block;
+  width: 20px;
+  margin: 0 10px;
+  height: 20px;
+  background: url("../images/header_sprite.png") -53px -2px no-repeat;
+}
+/* line 109, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper nav {
+  width: 100%;
+}
+@media (max-width: 715px) {
+  /* line 109, ../scss/base/_common.scss */
+  #wrapper .outer-wrapper .inner-wrapper nav {
+    margin: 0px 0 0 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    background: #0e3e6c;
+    position: absolute;
+    top: 80px;
+    z-index: 999;
+  }
+}
+/* line 122, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper nav ul {
+  margin: 0;
+  list-style: none;
+}
+@media (max-width: 715px) {
+  /* line 122, ../scss/base/_common.scss */
+  #wrapper .outer-wrapper .inner-wrapper nav ul {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+    z-index: 15;
+  }
+}
+/* line 133, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper nav ul li {
+  position: relative;
+  z-index: 1;
+  margin: 0px 0px 0px 0px;
+  float: left;
+}
+@media (max-width: 715px) {
+  /* line 133, ../scss/base/_common.scss */
+  #wrapper .outer-wrapper .inner-wrapper nav ul li {
+    float: none;
+    position: relative;
+    margin: 0;
+  }
+}
+/* line 144, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper nav ul li a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0px 43px;
+  font-size: 1.5rem;
+  line-height: 60px;
+}
+@media (max-width: 715px) {
+  /* line 144, ../scss/base/_common.scss */
+  #wrapper .outer-wrapper .inner-wrapper nav ul li a {
+    display: table;
+    margin: 0;
+    padding: 15px 2px;
+    color: white;
+    text-align: left;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0px 1px 3px rgba(255, 255, 255, 0.03);
+    text-shadow: none;
+    width: 100%;
+  }
+}
+/* line 164, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper nav ul li a:hover {
+  color: white;
+  background: #1c5c99;
+}
+/* line 168, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper nav ul li:hover ul {
+  opacity: 1;
+  max-height: 1000px;
+}
+@media (max-width: 715px) {
+  /* line 168, ../scss/base/_common.scss */
+  #wrapper .outer-wrapper .inner-wrapper nav ul li:hover ul {
+    max-height: 0;
+  }
+}
+/* line 178, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper nav ul li ul {
+  background: #0e3e6c;
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  width: 230px;
+  max-height: 0;
+  z-index: 0;
+  opacity: 0;
+  overflow: hidden;
+  font-size: .9em;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 715px) {
+  /* line 178, ../scss/base/_common.scss */
+  #wrapper .outer-wrapper .inner-wrapper nav ul li ul {
+    max-height: 0;
+    opacity: 1;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+}
+/* line 201, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper nav ul li ul li {
+  float: none;
+  margin: 0;
+}
+@media (max-width: 715px) {
+  /* line 201, ../scss/base/_common.scss */
+  #wrapper .outer-wrapper .inner-wrapper nav ul li ul li {
+    margin: 0;
+  }
+}
+/* line 209, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper nav ul li ul li a {
+  display: block;
+  text-align: left;
+  margin: 0;
+  border-right: none;
+  border-top: 1px solid #071f36;
+  box-shadow: inset 0px 1px 3px rgba(255, 255, 255, 0.03);
+  text-transform: none;
+  text-shadow: none;
+  line-height: 20px;
+  padding: 10px 10px 10px 43px;
+}
+/* line 222, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper nav ul li ul li a:hover {
+  color: #00aedb;
+  background: #114b83;
+}
+@media (max-width: 715px) {
+  /* line 209, ../scss/base/_common.scss */
+  #wrapper .outer-wrapper .inner-wrapper nav ul li ul li a {
+    color: white;
+    padding-left: 20px;
+    background: none;
+  }
+}
+/* line 237, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper nav ul li:hover {
+  background: #1c5c99;
+}
+/* line 241, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .mobile {
+  display: none;
+  margin: 0;
+  padding: 20px 15px;
+  position: absolute;
+  color: #fff;
+  text-decoration: none;
+  top: 15px;
+  right: 15px;
+  line-height: 0;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.35);
+}
+@media (max-width: 715px) {
+  /* line 241, ../scss/base/_common.scss */
+  #wrapper .outer-wrapper .inner-wrapper .mobile {
+    display: table;
+  }
+}
+/* line 258, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .active {
+  max-height: 9000px !important;
+}
+@media (max-width: 715px) {
+  /* line 264, ../scss/base/_common.scss */
+  #wrapper .outer-wrapper .inner-wrapper .arrow {
+    display: block;
+    background: url(../images/m_arrow.png) no-repeat 0 0px;
+    float: right;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    right: 16px;
+    top: 26px;
+  }
+  /* line 274, ../scss/base/_common.scss */
+  #wrapper .outer-wrapper .inner-wrapper .arrow:hover {
+    cursor: pointer;
+  }
+  /* line 279, ../scss/base/_common.scss */
+  #wrapper .outer-wrapper .inner-wrapper .rotate {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+}
+/* line 288, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .col-left {
+  max-width: 200px;
+  margin-top: 12px;
+}
+/* line 293, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu {
+  background-color: white;
+  margin-bottom: 12px;
+}
+/* line 297, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul {
+  display: block;
+}
+/* line 299, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li {
+  display: block;
+  width: 100%;
+}
+/* line 302, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li:nth-type-child(4) {
+  background: red !important;
+}
+/* line 305, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li a {
+  display: block;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 5px;
+  border-bottom: 1px solid #e9ecf2;
+}
+/* line 313, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li a span {
+  float: left;
+  margin-right: 10px;
+  height: 33px;
+  width: 33px;
+  margin-top: 8px;
+}
+/* line 314, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li a span .img_main {
+  display: block;
+}
+/* line 315, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li a span .img_hover {
+  display: none;
+}
+/* line 318, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li a:hover {
+  background: #44b1ef;
+  color: white;
+}
+/* line 320, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li a:hover span .img_hover {
+  display: block;
+}
+/* line 321, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li a:hover span .img_main {
+  display: none;
+}
+/* line 326, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li.active {
+  background: #44b1ef;
+  color: white;
+}
+/* line 328, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li.active span .img_hover {
+  display: block;
+}
+/* line 329, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li.active span .img_main {
+  display: none;
+}
+/* line 333, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li .activedarkblue {
+  background: #44b1ef;
+  color: white;
+}
+/* line 334, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li .activedarkblue:before {
+  background-position: -40px -101px !important;
+}
+/* line 337, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .left_menu ul li .activelightblue {
+  background: #e9f3f9;
+  color: #0a6ebd;
+}
+/* line 342, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .pre_apprv_loan {
+  padding: 10px;
+  text-align: center;
+}
+/* line 345, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .pre_apprv_loan .title {
+  font-size: 1.8rem;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px 5px;
+}
+/* line 351, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .pre_apprv_loan .title hr {
+  border-top: 1px solid #b45013;
+  width: 90%;
+  margin: 5px auto;
+}
+/* line 353, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .pre_apprv_loan .pre_loan_icon {
+  background: url(../images/header_sprite.png) 0 -26px no-repeat;
+  margin: 0 auto;
+  width: 62px;
+  height: 65px;
+  margin-bottom: 10px;
+}
+/* line 354, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .pre_apprv_loan p {
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+  display: inline-block;
+}
+/* line 360, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .col-middle {
+  max-width: 645px;
+  margin: 12px 12px 0;
+}
+/* line 365, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .col-half-middle {
+  max-width: 800px;
+  margin: 12px 12px 0;
+}
+/* line 370, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading {
+  padding-left: 60px;
+}
+/* line 374, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading .notify {
+  background-color: red;
+  color: white;
+  display: block;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  line-height: 22px;
+  text-align: center;
+  position: absolute;
+  top: 4px;
+  left: 32px;
+  font-size: 1.2rem;
+}
+/* line 375, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading .updown {
+  color: white;
+  display: block;
+  margin-right: 12px;
+}
+/* line 376, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading .minus {
+  background: url(../images/minus.png) right 16px no-repeat;
+}
+/* line 377, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading .pluse {
+  background: url(../images/pluse.png) right 16px no-repeat !important;
+}
+/* line 381, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading.notify_icon:before {
+  background-position: -47px -638px;
+}
+/* line 387, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading.adharcard_icon:before {
+  background-position: -47px -805px;
+}
+/* line 393, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading.gold_loan_icon:before {
+  background-position: -47px -724px;
+}
+/* line 399, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading.com_vehicle_icon:before {
+  background-position: -47px -902px;
+}
+/* line 405, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading.statement_icon:before {
+  background-position: 0px -818px;
+}
+/* line 411, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading.repay_schedule_icon:before {
+  background-position: 0px -732px;
+}
+/* line 417, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading.quickpay_icon:before {
+  background-position: 5px -691px;
+}
+/* line 423, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading.intercertificate_icon:before {
+  background-position: 5px -645px;
+}
+/* line 429, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading.payhis_icon:before {
+  background-position: -44px -598px;
+}
+/* line 435, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .heading.outstandingpay_icon:before {
+  background-position: 0px -773px;
+}
+/* line 440, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .req_otp {
+  padding: 10px 15px;
+  margin-top: 12px;
+}
+/* line 444, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .req_otp p {
+  font-size: 1.6rem;
+  line-height: 22px;
+}
+/* line 445, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .req_otp p strong {
+  color: #1c5c99;
+}
+/* line 446, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .req_otp p span {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  vertical-align: middle;
+  background: url(../images/header_sprite.png) -133px -32px no-repeat;
+}
+/* line 447, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .req_otp p .mobnumber {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+/* line 453, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .req_otp .otp_number {
+  margin-top: 20px;
+}
+/* line 455, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .req_otp .otp_number span {
+  display: inline-block;
+  margin: 20px 0;
+  width: 100%;
+}
+/* line 456, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .req_otp .otp_number span input[type="text"] {
+  color: #8a8a8a;
+  height: 30px;
+  padding: 0 10px;
+  line-height: 30px;
+  border: 1px solid #e9e9e9;
+  width: 40%;
+}
+/* line 465, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .req_otp .otp_number .request_otp {
+  margin-right: 20px;
+  margin-top: 0px;
+}
+/* line 466, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .req_otp .otp_number .resendotp {
+  color: #1c5c99;
+  text-decoration: underline;
+  font-weight: 600;
+}
+/* line 470, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link {
+  padding: 10px 15px;
+  font-size: 1.6rem;
+  margin-top: 12px;
+}
+/* line 477, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link p {
+  font-size: 1.6rem;
+}
+/* line 480, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link p strong {
+  color: #1c5c99;
+  font-size: 2rem;
+  font-weight: 600;
+  display: block;
+  line-height: 30px;
+}
+/* line 488, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number {
+  margin: 30px 0;
+}
+/* line 493, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .txt {
+  float: left;
+  vertical-align: top;
+  margin-top: 5px;
+  width: 40%;
+}
+/* line 494, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number {
+  float: left;
+  width: 60%;
+}
+/* line 498, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number input[type="text"] {
+  font-size: 1.6rem;
+  border: 1px solid #bcbcbc;
+  background-color: #eeecec;
+  line-height: 30px;
+  height: 30px;
+  padding: 0 10px;
+  width: 60%;
+  float: left;
+}
+/* line 508, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number input[type="button"] {
+  float: left;
+  margin-top: 20px !important;
+  clear: both;
+}
+/* line 514, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number .resendotp {
+  float: left;
+  margin: 30px 0 0 25px;
+  color: #1c5c99;
+  font-size: 1.6rem;
+  text-decoration: underline;
+}
+/* line 519, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_details {
+  padding: 10px 15px;
+  margin-top: 12px;
+}
+/* line 525, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_details p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+/* line 529, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_details p strong {
+  color: #1c5c99;
+  font-size: 4rem;
+  font-weight: 600;
+  display: block;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+/* line 541, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .notifications {
+  border: 1px solid #e3e5eb;
+}
+/* line 545, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .notifications .notify_list {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-bottom: 1px solid #f8f8f8;
+}
+/* line 552, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .notifications .notify_list p {
+  display: inline-block;
+  width: 80%;
+  color: #9b9b9b;
+}
+/* line 553, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .notifications .notify_list a {
+  display: inline-block;
+  width: 20%;
+  text-decoration: underline;
+  color: #1c5c99;
+}
+/* line 555, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .notifications .see_all {
+  background-color: #1c5c99;
+  padding: 10px 35px;
+  display: inline-block;
+  margin: 10px 0 20px 35px;
+  color: white;
+}
+/* line 558, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details {
+  margin: 12px 0px;
+}
+/* line 562, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li {
+  float: left;
+  width: 32.8%;
+  margin-right: 5px;
+  border: 0px solid red;
+  padding: 8px;
+  background: white;
+}
+/* line 570, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li a {
+  display: block;
+  position: relative;
+}
+/* line 574, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li a div {
+  font-size: 7rem;
+  font-weight: bold;
+  letter-spacing: -11px;
+  float: left;
+  line-height: 50px;
+  margin-top: 18px;
+}
+/* line 577, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li a div.total_loan_acc {
+  color: #e66a1f;
+}
+/* line 578, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li a div.total_active_acc {
+  color: #1c5c99;
+}
+/* line 579, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li a div.total_closed_acc {
+  color: #44b1ef;
+}
+/* line 581, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li a p {
+  font-size: 1.7rem;
+  color: #9b9b9b;
+  font-weight: 600;
+  width: 60%;
+  display: inline-block;
+  margin: 18px 0 0 21px;
+}
+/* line 582, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li a hr {
+  border-top: 4px solid #f5f5f5;
+  display: inline-block;
+  width: 100%;
+}
+/* line 583, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li a span {
+  background: url(../images/header_sprite.png) no-repeat;
+  display: block;
+  width: 24px;
+  height: 27px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+/* line 585, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li a span.total_loan_acc_icon {
+  background-position: -80px 0;
+}
+/* line 586, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li a span.total_active_acc_icon {
+  background-position: -115px 0;
+}
+/* line 587, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li a span.total_closed_acc_icon {
+  background-position: -147px 0;
+}
+/* line 591, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li:last-child {
+  margin-right: 0px;
+}
+/* line 593, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li:last-child div {
+  letter-spacing: 0px;
+}
+/* line 594, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_account_details li:last-child p {
+  width: 54%;
+  margin-left: 12px;
+}
+/* line 600, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart {
+  margin: 0 0 12px 0;
+}
+/* line 607, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li {
+  float: left;
+  width: 50%;
+}
+/* line 609, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li #container {
+  width: 100%;
+  height: 260px;
+  margin: 0px;
+}
+/* line 610, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li #container .highcharts-container {
+  margin-top: 0px;
+}
+/* line 611, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li #container svg text[text-anchor="end"] {
+  display: none;
+}
+/* line 614, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li ul.princial_interest_other_details {
+  margin-top: 20px;
+}
+/* line 616, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li ul.princial_interest_other_details li {
+  width: 35%;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+/* line 620, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart div {
+  float: left;
+  margin-top: 30px;
+}
+/* line 623, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart div p {
+  text-align: left;
+  font-size: 1.3rem;
+}
+/* line 624, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding_highchart div p.amount {
+  font-size: 2rem;
+}
+/* line 629, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis {
+  margin: 0 0 12px 0;
+}
+/* line 634, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .outstanding_highchart ul {
+  width: 50%;
+}
+/* line 635, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .outstanding_highchart ul li {
+  width: 65%;
+}
+/* line 637, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .outstanding_highchart ul li ul {
+  width: 100%;
+}
+/* line 638, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .outstanding_highchart ul li ul li {
+  width: 100%;
+}
+/* line 639, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .outstanding_highchart ul li ul li:last-child {
+  width: 100%;
+}
+/* line 642, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .outstanding_highchart ul li:last-child {
+  width: 35%;
+}
+/* line 648, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_amount_disbursed {
+  text-align: center;
+  border-bottom: 1px solid #e1e1e1;
+}
+/* line 653, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_amount_disbursed .disbursed {
+  display: inline-block;
+  width: 50%;
+  margin: 10px 0;
+}
+/* line 658, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_amount_disbursed .disbursed span {
+  margin-right: 10px;
+  float: left;
+  width: 55px;
+  height: 55px;
+  background: url(../images/header_sprite.png) -74px -30px no-repeat;
+}
+/* line 659, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_amount_disbursed .disbursed div {
+  float: left;
+  margin-top: 10px;
+}
+/* line 662, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_amount_disbursed .disbursed div p {
+  text-align: left;
+  font-size: 1.3rem;
+}
+/* line 663, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_amount_disbursed .disbursed div p.amount {
+  font-size: 2rem;
+}
+/* line 670, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_outstanding {
+  width: 100%;
+  height: 200px;
+  margin: 0px;
+}
+/* line 671, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_outstanding .highcharts-container {
+  margin-top: 0px;
+}
+/* line 672, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_outstanding svg text[text-anchor="end"] {
+  display: none;
+}
+/* line 674, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_repayments {
+  width: 100%;
+  height: 200px;
+  margin: 0px;
+}
+/* line 675, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_repayments .highcharts-container {
+  margin-top: 0px;
+}
+/* line 676, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_repayments svg text[text-anchor="end"] {
+  display: none;
+}
+/* line 678, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_summary_block {
+  float: right;
+  width: 98%;
+  margin: 5px 6px;
+}
+/* line 683, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_summary_block ul {
+  margin-top: 14px;
+}
+/* line 686, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_summary_block ul li {
+  float: left;
+  width: 33%;
+  margin: 0px 0 11px 0;
+}
+/* line 691, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_summary_block ul li img {
+  display: block;
+  margin: 0px auto 5px;
+}
+/* line 692, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_summary_block ul li span {
+  display: block;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 698, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details {
+  position: relative;
+}
+/* line 701, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .clickon {
+  color: #1c5c99;
+  float: right;
+  margin-right: 10%;
+  position: absolute;
+  right: 0px;
+  top: 65px;
+}
+/* line 702, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper {
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+}
+/* line 704, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper #gold_loan_view_details_filter {
+  padding: 20px;
+}
+/* line 705, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper #gold_loan_view_details_filter label {
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* line 706, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper #gold_loan_view_details_filter input[type="search"] {
+  width: 210px;
+  background: url(../images/search_icon.png) 6px 7px no-repeat #eeecec;
+  border-radius: 50px;
+  padding: 0px 15px 0px 26px;
+  height: 35px;
+  margin-left: 10px;
+}
+/* line 707, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper #gold_loan_view_details_filter input[type="search"]:focus {
+  background: #eeecec;
+  padding: 0px 15px 0px 15px;
+}
+/* line 711, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable thead {
+  background-color: #5ea9dd;
+}
+/* line 712, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable thead th {
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  font-weight: normal;
+  font-size: 1.6rem;
+  border-right: 1px solid rgba(88, 88, 88, 0.2);
+  height: 40px;
+  line-height: 40px;
+}
+/* line 713, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable thead th:last-child {
+  background: none;
+}
+/* line 715, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable thead .sorting_asc {
+  background: url(../images/table_icon_bg.png) right 5px no-repeat;
+}
+/* line 716, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable thead .sorting, #wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable thead .sorting_desc, #wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .statement #statement_details_wrapper table.dataTable thead .sorting_desc, #wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper .view_details #gold_loan_view_details_wrapper table.dataTable thead .sorting_desc {
+  background: url(../images/table_icon_bg.png) right -44px no-repeat;
+}
+/* line 721, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable tbody tr.odd {
+  background-color: #fff;
+}
+/* line 722, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable tbody tr.even {
+  background-color: #eeeeee;
+}
+/* line 723, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable tbody tr:hover {
+  background-color: #f6f6f6;
+}
+/* line 725, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable tbody tr.active_content .acc_content_details {
+  display: block;
+  border-bottom: 4px solid #e8ebf1;
+}
+/* line 727, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable tbody tr td {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.6rem;
+  border-right: 1px solid rgba(88, 88, 88, 0.2);
+  height: 40px;
+  line-height: 40px;
+}
+/* line 728, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable tbody tr td .plus {
+  display: block;
+  margin: 0 auto;
+  width: 22px;
+  border-radius: 50px;
+  height: 22px;
+  background-color: #e66a1f;
+  position: relative;
+}
+/* line 730, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable tbody tr td .plus:after {
+  content: '+';
+  height: 25px;
+  position: absolute;
+  top: -8px;
+  left: 7px;
+  display: block;
+  color: #fff;
+}
+/* line 732, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable tbody tr td .plus:hover {
+  background-color: #1c5c99;
+  color: white;
+}
+/* line 733, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable tbody tr td .plus:hover:after {
+  content: '-';
+  top: -8px;
+  left: 8px;
+  font-size: 2.5rem;
+}
+/* line 737, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable tbody tr.active {
+  background-color: #e66a1f;
+  color: white;
+}
+/* line 738, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable tbody tr.active .plus {
+  background-color: #1c5c99;
+  color: white;
+}
+/* line 739, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper table.dataTable tbody tr.active .plus:after {
+  content: '-';
+  top: -8px;
+  left: 8px;
+  font-size: 2.5rem;
+}
+/* line 745, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .dataTables_length {
+  display: none;
+}
+/* line 747, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .dataTables_info {
+  display: none;
+}
+/* line 748, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .dataTables_paginate {
+  float: right;
+  margin: 28px 0;
+  position: relative;
+}
+/* line 752, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .dataTables_paginate .paginate_button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 758, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .dataTables_paginate .paginate_button.current {
+  background-color: #44b1ef;
+  color: white;
+}
+/* line 759, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .dataTables_paginate .paginate_button.disabled {
+  color: #b8b9b9;
+}
+/* line 761, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .dataTables_paginate .previous {
+  text-indent: -64px;
+  overflow: hidden;
+  display: inline-block;
+  width: 40px;
+}
+/* line 766, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .dataTables_paginate .previous:before {
+  content: '<<';
+  position: absolute;
+  top: 3px;
+  left: 80px;
+  line-height: 24px;
+}
+/* line 768, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .dataTables_paginate .next {
+  text-indent: -64px;
+  overflow: hidden;
+  display: inline-block;
+  width: 40px;
+}
+/* line 773, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .dataTables_paginate .next:before {
+  content: '>>';
+  position: absolute;
+  top: 3px;
+  right: -31px;
+  line-height: 24px;
+}
+/* line 776, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .dataTables_paginate a:hover {
+  background-color: #f2f2f2;
+}
+/* line 783, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details #details td .acc_content_details {
+  display: block;
+}
+/* line 789, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details {
+  display: none;
+  padding: 7px;
+}
+/* line 793, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details table {
+  width: 100%;
+  background-color: #717881;
+  color: white;
+}
+/* line 795, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details table tr td {
+  font-size: 1.5rem !important;
+  line-height: 20px !important;
+  font-weight: 600 !important;
+  padding: 6px 10px 4px 8px;
+  border-right: 1px solid #9fa4aa !important;
+  height: auto !important;
+}
+/* line 796, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details table tr td strong {
+  font-weight: 600;
+}
+/* line 797, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details table tr td.principle_interest {
+  font-weight: normal !important;
+  background-color: #60666d;
+}
+/* line 799, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details table tr:hover {
+  background-color: transparent !important;
+}
+/* line 802, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details .account_user_info {
+  padding: 30px 0;
+}
+/* line 805, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details .account_user_info div {
+  font-size: 1.5rem;
+  line-height: 25px;
+  text-align: left;
+}
+/* line 807, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details .account_user_info div span {
+  font-weight: 600;
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  color: #60666d;
+}
+/* line 808, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details .account_user_info div p {
+  display: inline-block;
+  width: 40%;
+  color: #1c5c99;
+}
+/* line 811, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details .summary_block_right {
+  width: 100%;
+}
+/* line 812, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details .summary_block_right li {
+  min-height: auto;
+  padding: 15px 0;
+}
+/* line 813, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details .summary_block_right li a {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+}
+/* line 814, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details .summary_block_right li a span {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  margin-top: 10px;
+  width: auto;
+  margin-left: 10px;
+}
+/* line 815, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details .summary_block_right li a img {
+  display: inline-block;
+}
+/* line 823, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement .find-account {
+  padding: 20px 10px;
+  margin-top: 12px;
+}
+/* line 827, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement .find-account input[type="search"] {
+  width: 210px;
+  background: url(../images/search_icon.png) 6px 7px no-repeat #eeecec;
+  border-radius: 50px;
+  padding: 0px 15px 0px 26px;
+  height: 35px;
+  margin-left: 10px;
+}
+/* line 828, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement .find-account input[type="search"]:focus {
+  background: #eeecec;
+  padding: 0px 15px 0px 15px;
+}
+/* line 831, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement .sanction_details {
+  margin: 12px 0px;
+}
+/* line 835, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement .sanction_details span {
+  margin-right: 20px;
+}
+/* line 837, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement .heading:before {
+  top: 0px;
+}
+/* line 838, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement .gold_loan_icon {
+  background-color: #44b1ef;
+  height: 36px;
+  line-height: 36px;
+}
+/* line 844, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper {
+  overflow: auto;
+  background-color: #fff;
+}
+/* line 849, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable thead {
+  background-color: #eeeeee;
+}
+/* line 850, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable thead th {
+  text-align: center;
+  padding: 0 26px;
+  cursor: pointer;
+  color: #666666;
+  font-weight: normal;
+  font-size: 1.6rem;
+  border-right: 1px solid rgba(88, 88, 88, 0.2);
+  height: 40px;
+  line-height: 40px;
+}
+/* line 851, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable thead .sorting_asc {
+  background: url(../images/statement_table_icon_bg.png) right 5px no-repeat;
+}
+/* line 852, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable thead .sorting, #wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper .view_details #gold_loan_view_details_wrapper table.dataTable thead .sorting_desc, #wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .statement #statement_details_wrapper table.dataTable thead .sorting_desc, #wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable thead .sorting_desc {
+  background: url(../images/statement_table_icon_bg.png) right -44px no-repeat;
+}
+/* line 856, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable tbody tr {
+  background-color: #fff;
+}
+/* line 858, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable tbody tr:hover {
+  background-color: #f6f6f6;
+}
+/* line 860, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable tbody tr.active_content .acc_content_details {
+  display: block;
+  border-bottom: 4px solid #e8ebf1;
+}
+/* line 862, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable tbody tr td {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.4rem;
+  border-right: 1px solid rgba(88, 88, 88, 0.2);
+  border-bottom: 1px solid rgba(88, 88, 88, 0.2);
+  height: 40px;
+  padding: 10px 0;
+  line-height: 20px;
+}
+/* line 863, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable tbody tr td .plus {
+  display: block;
+  margin: 0 auto;
+  width: 22px;
+  border-radius: 50px;
+  height: 22px;
+  background-color: #e66a1f;
+  position: relative;
+}
+/* line 865, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable tbody tr td .plus:after {
+  content: '+';
+  height: 25px;
+  position: absolute;
+  top: -8px;
+  left: 7px;
+  display: block;
+  color: #fff;
+}
+/* line 867, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable tbody tr td .plus:hover {
+  background-color: #1c5c99;
+  color: white;
+}
+/* line 868, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable tbody tr td .plus:hover:after {
+  content: '-';
+  top: -8px;
+  left: 8px;
+  font-size: 2.5rem;
+}
+/* line 872, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable tbody tr.active {
+  background-color: #e66a1f;
+  color: white;
+}
+/* line 873, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable tbody tr.active .plus {
+  background-color: #1c5c99;
+  color: white;
+}
+/* line 874, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper table.dataTable tbody tr.active .plus:after {
+  content: '-';
+  top: -8px;
+  left: 8px;
+  font-size: 2.5rem;
+}
+/* line 880, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper .dataTables_length {
+  display: none;
+}
+/* line 882, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper .dataTables_info {
+  display: none;
+}
+/* line 883, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper .dataTables_paginate {
+  float: right;
+  margin: 28px 0;
+  position: relative;
+}
+/* line 887, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper .dataTables_paginate .paginate_button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 893, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper .dataTables_paginate .paginate_button.current {
+  background-color: #44b1ef;
+  color: white;
+}
+/* line 894, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper .dataTables_paginate .paginate_button.disabled {
+  color: #b8b9b9;
+}
+/* line 896, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper .dataTables_paginate .previous {
+  text-indent: -64px;
+  overflow: hidden;
+  display: inline-block;
+  width: 40px;
+}
+/* line 901, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper .dataTables_paginate .previous:before {
+  content: '<<';
+  position: absolute;
+  top: 3px;
+  left: 80px;
+  line-height: 24px;
+}
+/* line 903, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper .dataTables_paginate .next {
+  text-indent: -64px;
+  overflow: hidden;
+  display: inline-block;
+  width: 40px;
+}
+/* line 908, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper .dataTables_paginate .next:before {
+  content: '>>';
+  position: absolute;
+  top: 3px;
+  right: -31px;
+  line-height: 24px;
+}
+/* line 911, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper .dataTables_paginate a:hover {
+  background-color: #f2f2f2;
+}
+/* line 919, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .repay_schedule .find-account {
+  padding: 20px 10px;
+  margin-top: 12px;
+}
+/* line 923, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .repay_schedule .find-account input[type="search"] {
+  width: 210px;
+  background: url(../images/search_icon.png) 6px 7px no-repeat #eeecec;
+  border-radius: 50px;
+  padding: 0px 15px 0px 26px;
+  height: 35px;
+  margin-left: 10px;
+}
+/* line 924, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .repay_schedule .find-account input[type="search"]:focus {
+  background: #eeecec;
+  padding: 0px 15px 0px 15px;
+}
+/* line 928, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .repay_schedule .heading:before {
+  top: 0px;
+}
+/* line 929, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .repay_schedule .com_vehicle_icon {
+  background-color: #44b1ef;
+  height: 36px;
+  line-height: 36px;
+  margin-top: 12px;
+}
+/* line 937, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .repay_schedule #repay_schedule_wrapper {
+  overflow: auto;
+  background-color: #fff;
+}
+/* line 941, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .repay_schedule #repay_schedule_wrapper table.dataTable {
+  width: 644px;
+}
+/* line 943, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .repay_schedule #repay_schedule_wrapper table.dataTable thead {
+  background-color: #eeeeee;
+}
+/* line 944, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .repay_schedule #repay_schedule_wrapper table.dataTable thead th {
+  text-align: center;
+  padding: 0 5px;
+  cursor: pointer;
+  color: #666666;
+  font-weight: normal;
+  font-size: 1.5rem;
+  border-right: 1px solid rgba(88, 88, 88, 0.2);
+  height: 40px;
+  line-height: 40px;
+}
+/* line 947, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .repay_schedule #repay_schedule_wrapper table.dataTable tbody tr {
+  background-color: #fff;
+}
+/* line 949, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .repay_schedule #repay_schedule_wrapper table.dataTable tbody tr:hover {
+  background-color: #f6f6f6;
+}
+/* line 951, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .repay_schedule #repay_schedule_wrapper table.dataTable tbody tr td {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.4rem;
+  border-right: 1px solid rgba(88, 88, 88, 0.2);
+  border-bottom: 1px solid rgba(88, 88, 88, 0.2);
+  height: 40px;
+  padding: 10px 0;
+  line-height: 20px;
+}
+/* line 952, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .repay_schedule #repay_schedule_wrapper table.dataTable tbody tr td a {
+  color: #1c5c99;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+/* line 962, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .download_btn {
+  text-align: center;
+  margin-top: 35px;
+}
+/* line 966, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .download_btn .download, #wrapper .outer-wrapper .inner-wrapper .download_btn .print, #wrapper .outer-wrapper .inner-wrapper .download_btn .view_cer, #wrapper .outer-wrapper .inner-wrapper .download_btn .dowload_cer {
+  font-size: 1.6rem;
+}
+/* line 970, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .download_btn .download .icon, #wrapper .outer-wrapper .inner-wrapper .download_btn .print .icon, #wrapper .outer-wrapper .inner-wrapper .download_btn .view_cer .icon, #wrapper .outer-wrapper .inner-wrapper .download_btn .dowload_cer .icon {
+  background-position: 0 5px;
+  width: 22px;
+}
+/* line 972, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .download_btn .print {
+  margin-left: 30px !important;
+}
+/* line 975, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .download_btn .print .icon {
+  background-position: 0 -30px;
+  width: 24px;
+  margin-left: 3px;
+}
+/* line 979, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .download_btn .view_cer .icon {
+  background-position: 0 -61px;
+  width: 24px;
+  margin-right: 3px;
+  margin-left: 0px !important;
+}
+/* line 983, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .download_btn .dowload_cer .icon {
+  background-position: 0 -96px;
+  width: 24px;
+  margin-right: 3px;
+  margin-left: 0px !important;
+}
+/* line 988, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .quick-pay {
+  margin-top: 12px;
+}
+/* line 991, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .quick-pay .loan-info {
+  padding: 30px 20px;
+}
+/* line 995, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .quick-pay .loan-info .plus {
+  color: #1c5c99;
+  float: left;
+  line-height: 30px;
+  position: relative;
+  padding-left: 15px;
+  text-decoration: underline;
+}
+/* line 996, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .quick-pay .loan-info .plus:before {
+  content: '+';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 30px;
+  font-size: 1.8rem;
+}
+/* line 998, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .quick-pay .loan-info .plus.minus:before {
+  content: '-';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 30px;
+  font-size: 2.8rem;
+}
+/* line 1002, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .quick-pay .loan-info .details_options {
+  float: left;
+  width: 70%;
+}
+/* line 1005, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .quick-pay .loan-info .details_options ul {
+  display: none;
+  float: left;
+  clear: both;
+  margin: 20px 0 0 15px;
+}
+/* line 1006, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .quick-pay .loan-info .details_options ul li {
+  float: left;
+  width: 100%;
+  line-height: 26px;
+}
+/* line 1010, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .quick-pay .loan-info .details_options ul li span {
+  display: inline-block;
+  width: 50%;
+  font-size: 1.5rem;
+  color: #1c5c99;
+}
+/* line 1020, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .quick-pay .loan-info input[type="text"] {
+  width: 40%;
+}
+/* line 1024, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate {
+  margin-top: 12px;
+}
+/* line 1027, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .loan-info {
+  padding: 30px 20px;
+}
+/* line 1031, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .loan-info .form-control {
+  margin-bottom: 0px;
+}
+/* line 1033, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .loan-info .form-control input[type="text"] {
+  width: 40%;
+}
+/* line 1036, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details {
+  margin-top: 12px;
+}
+/* line 1037, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg {
+  padding: 15px;
+}
+/* line 1038, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender {
+  background-color: #e7e7e7;
+  padding: 20px;
+  display: inline-block;
+}
+/* line 1042, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender span {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 1043, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender span.to {
+  margin-left: 40px;
+}
+/* line 1046, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender input[type="text"] {
+  width: 40%;
+  color: #1c5c99;
+  font-weight: 600;
+}
+/* line 1047, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender input[type="text"].icon {
+  background-position: right -128px;
+}
+/* line 1049, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender .download_btn {
+  margin-top: 20px;
+}
+/* line 1050, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender .download_btn a {
+  padding: 0 20px;
+  margin: 10px 10px 0;
+}
+/* line 1058, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .confirm_to_pay {
+  margin-top: 12px;
+}
+/* line 1061, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .confirm_to_pay .loan-info {
+  padding: 30px 20px;
+}
+/* line 1064, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .confirm_to_pay .loan-info .form-control {
+  position: relative;
+}
+/* line 1067, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .confirm_to_pay .loan-info .form-control.mrg0 {
+  margin-bottom: 0px;
+}
+/* line 1070, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .confirm_to_pay .loan-info .form-control input[type=radio] {
+  position: absolute;
+  visibility: hidden;
+}
+/* line 1074, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .confirm_to_pay .loan-info .form-control input[type=radio]:checked ~ .check {
+  border: 2px solid #bcbcbc;
+}
+/* line 1076, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .confirm_to_pay .loan-info .form-control input[type=radio]:checked ~ .check ::before {
+  background: #e66a1f;
+}
+/* line 1081, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .confirm_to_pay .loan-info .form-control label {
+  display: block;
+  position: relative;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+  padding-left: 30px;
+}
+/* line 1083, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .confirm_to_pay .loan-info .form-control .check {
+  display: block;
+  position: absolute;
+  border: 2px solid #bcbcbc;
+  border-radius: 100%;
+  height: 16px;
+  width: 16px;
+  top: 4px;
+  left: 0px;
+  z-index: 5;
+  transition: border .25s linear;
+  -webkit-transition: border .25s linear;
+}
+/* line 1096, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .confirm_to_pay .loan-info .form-control .check :before {
+  display: block;
+  position: absolute;
+  content: '';
+  border-radius: 100%;
+  height: 8px;
+  width: 8px;
+  top: 2px;
+  left: 2px;
+  margin: auto;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
+}
+/* line 1112, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .confirm_to_pay .loan-info .form-control:hover .check {
+  border: 3px solid #bcbcbc;
+}
+/* line 1118, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .payment_history {
+  margin-top: 12px;
+}
+/* line 1121, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .payment_history .form-control {
+  margin-bottom: 20px;
+  padding: 30px 20px 15px 20px;
+}
+/* line 1123, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .payment_history #payment_history_wrapper {
+  overflow: auto;
+  background-color: #fff;
+}
+/* line 1128, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .payment_history #payment_history_wrapper table.dataTable thead {
+  background-color: #eeeeee;
+}
+/* line 1129, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .payment_history #payment_history_wrapper table.dataTable thead th {
+  text-align: center;
+  padding: 0 0px;
+  cursor: pointer;
+  color: #666666;
+  font-weight: normal;
+  font-size: 1.5rem;
+  border-right: 1px solid rgba(88, 88, 88, 0.2);
+  height: 40px;
+  line-height: 40px;
+}
+/* line 1132, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .payment_history #payment_history_wrapper table.dataTable tbody tr {
+  background-color: #fff;
+}
+/* line 1134, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .payment_history #payment_history_wrapper table.dataTable tbody tr:hover {
+  background-color: #f6f6f6;
+}
+/* line 1135, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .payment_history #payment_history_wrapper table.dataTable tbody tr td {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.4rem;
+  border-right: 1px solid rgba(88, 88, 88, 0.2);
+  border-bottom: 1px solid rgba(88, 88, 88, 0.2);
+  height: 40px;
+  padding: 10px 0;
+  line-height: 20px;
+}
+/* line 1143, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding {
+  margin-top: 12px;
+}
+/* line 1146, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding .form-control {
+  margin-bottom: 20px;
+  padding: 30px 20px 15px 20px;
+}
+/* line 1148, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding #outstanding_wrapper {
+  overflow: auto;
+  background-color: #fff;
+}
+/* line 1153, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding #outstanding_wrapper table.dataTable thead {
+  background-color: #eeeeee;
+}
+/* line 1154, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding #outstanding_wrapper table.dataTable thead th {
+  text-align: center;
+  padding: 0 0px;
+  cursor: pointer;
+  color: #666666;
+  font-weight: normal;
+  font-size: 1.4rem;
+  border-right: 1px solid rgba(88, 88, 88, 0.2);
+  height: 40px;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 1157, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding #outstanding_wrapper table.dataTable tbody tr {
+  background-color: #fff;
+}
+/* line 1159, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding #outstanding_wrapper table.dataTable tbody tr:hover {
+  background-color: #f6f6f6;
+}
+/* line 1160, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding #outstanding_wrapper table.dataTable tbody tr td {
+  text-align: center;
+  vertical-align: top;
+  font-weight: normal;
+  font-size: 1.4rem;
+  border-right: 1px solid rgba(88, 88, 88, 0.2);
+  border-bottom: 1px solid rgba(88, 88, 88, 0.2);
+  height: 40px;
+  padding: 10px 0;
+  line-height: 20px;
+}
+/* line 1161, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .outstanding #outstanding_wrapper table.dataTable tbody tr td a {
+  display: block;
+  color: #1c5c99;
+  font-weight: 600;
+  text-decoration: underline;
+}
+/* line 1169, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement_download {
+  margin-top: 12px;
+}
+/* line 1172, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement_download .form-control {
+  margin-bottom: 20px;
+  padding: 30px 20px 15px 20px;
+}
+/* line 1173, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement_download .select_calender {
+  background-color: #e7e7e7;
+  padding: 20px;
+  display: inline-block;
+}
+/* line 1177, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement_download .select_calender span {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 1178, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement_download .select_calender span.to {
+  margin-left: 40px;
+}
+/* line 1181, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement_download .select_calender input[type="text"] {
+  width: 40%;
+  color: #1c5c99;
+  font-weight: 600;
+}
+/* line 1182, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement_download .select_calender input[type="text"].icon {
+  background-position: right -128px;
+}
+/* line 1184, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement_download .select_calender .download_btn {
+  margin-top: 20px;
+}
+/* line 1185, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .statement_download .select_calender .download_btn a {
+  padding: 0 20px;
+  margin: 10px 10px 0;
+}
+/* line 1191, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .gold_summary {
+  margin-bottom: 12px;
+}
+/* line 1195, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .gold_summary .gold_loan_summary_block {
+  position: relative;
+}
+/* line 1201, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left {
+  float: left;
+  width: 65%;
+}
+/* line 1205, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed {
+  text-align: center;
+  border-bottom: 1px solid #e1e1e1;
+}
+/* line 1210, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .disbursed {
+  display: inline-block;
+  width: 50%;
+  margin: 10px 0;
+}
+/* line 1215, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .disbursed span {
+  margin-right: 10px;
+  float: left;
+  width: 55px;
+  height: 55px;
+  background: url(../images/header_sprite.png) -74px -30px no-repeat;
+}
+/* line 1216, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .disbursed div {
+  float: left;
+  margin-top: 10px;
+}
+/* line 1219, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .disbursed div p {
+  text-align: left;
+  font-size: 1.3rem;
+}
+/* line 1220, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .disbursed div p.amount {
+  font-size: 2rem;
+}
+/* line 1227, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .gold_loan_summary_repay {
+  margin: 20px 0 20px 0;
+}
+/* line 1231, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .gold_loan_summary_repay li:nth-of-type(1) {
+  width: 44%;
+}
+/* line 1233, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .gold_loan_summary_repay li {
+  width: 28%;
+  float: left;
+}
+/* line 1237, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .gold_loan_summary_repay li .percents {
+  margin: 15px 0 0 0;
+  font-size: 7.3rem;
+  color: #44b1ef;
+  font-weight: 600;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+}
+/* line 1247, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .gold_loan_summary_repay li .percents span {
+  font-size: 4.9rem;
+  font-weight: 600;
+  display: inline;
+}
+/* line 1248, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .gold_loan_summary_repay li .percents .repay {
+  color: #1c5c99;
+  line-height: 16px;
+  font-size: 2.2rem;
+  text-align: left;
+}
+/* line 1251, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .gold_loan_summary_repay li div {
+  text-align: left;
+  font-size: 1.3rem;
+  margin: 0 0 15px 0;
+}
+/* line 1252, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .gold_loan_summary_repay li div .amount {
+  font-size: 1.7rem;
+}
+/* line 1254, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .gold_loan_summary_repay li span {
+  display: block;
+  width: 100%;
+  font-size: 1.3rem;
+  text-align: left;
+}
+/* line 1255, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .gold_loan_summary_repay li span.orange {
+  color: #e66a1f;
+}
+/* line 1256, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .gold_loan_summary_repay li span.lightblue {
+  color: #44b1ef;
+}
+/* line 1257, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .gold_loan_summary_repay li span.normalblue {
+  color: #1c5c99;
+}
+/* line 1267, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper ul.princial_interest_other_details li {
+  float: left;
+  position: relative;
+  margin: 5px 16px 5px 10px;
+  padding: 0 0 0 18px;
+  line-height: 20px;
+}
+/* line 1274, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper ul.princial_interest_other_details li:after {
+  content: '';
+  border: 0px solid red;
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  display: block;
+}
+/* line 1277, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper ul.princial_interest_other_details li.Principal:after {
+  background-color: #e66a1f;
+}
+/* line 1280, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper ul.princial_interest_other_details li.Interest:after {
+  background-color: #44b1ef;
+}
+/* line 1283, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper ul.princial_interest_other_details li.other:after {
+  background-color: #1c5c99;
+}
+/* line 1286, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper ul.princial_interest_other_details li.grey:after {
+  background-color: #808468;
+}
+/* line 1291, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_right {
+  float: right;
+  width: 35%;
+}
+/* line 1295, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_right ul {
+  margin-top: 14px;
+}
+/* line 1298, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_right ul li {
+  float: left;
+  width: 50%;
+  margin: 0px 0 11px 0;
+  min-height: 110px;
+}
+/* line 1304, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_right ul li img {
+  display: block;
+  margin: 0px auto 5px;
+}
+/* line 1305, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .summary_block_right ul li span {
+  display: block;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 1310, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .subheading {
+  background: #1c5c99;
+  padding: 0px 15px;
+}
+/* line 1316, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_against_property {
+  margin: 20px 0 20px 0;
+}
+/* line 1320, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_against_property li:nth-of-type(1) {
+  width: 44%;
+}
+/* line 1322, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_against_property li {
+  width: 50%;
+  float: left;
+}
+/* line 1326, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_against_property li .percents {
+  margin: 15px 0 0 0;
+  font-size: 7.3rem;
+  color: #44b1ef;
+  font-weight: 600;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  transform: translateY(50%);
+}
+/* line 1336, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_against_property li .percents span {
+  font-size: 4.9rem;
+  font-weight: 600;
+  display: inline;
+}
+/* line 1337, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_against_property li .percents .repay {
+  color: #1c5c99;
+  line-height: 16px;
+  font-size: 2.2rem;
+  text-align: left;
+  margin-left: 34px;
+}
+/* line 1340, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_against_property li div {
+  display: block;
+  width: 100%;
+  font-size: 1.3rem;
+  text-align: left;
+  margin: 0 0 10px 0;
+}
+/* line 1342, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_against_property li div span {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+/* line 1343, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_against_property li div p {
+  font-size: 1.9rem;
+  display: block;
+  font-weight: 600;
+}
+/* line 1344, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_against_property li div.green {
+  color: #808468;
+}
+/* line 1345, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_against_property li div.orange {
+  color: #e66a1f;
+}
+/* line 1346, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_against_property li div.lightblue {
+  color: #44b1ef;
+}
+/* line 1347, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_against_property li div.normalblue {
+  color: #1c5c99;
+}
+/* line 1348, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .loan_against_property li div.normalblue p {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+/* line 1354, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details {
+  margin: 12px 0px;
+}
+/* line 1358, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li {
+  float: left;
+  width: 32.8%;
+  margin-right: 5px;
+  border: 0px solid red;
+  padding: 4px;
+  background: white;
+}
+/* line 1366, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a {
+  display: block;
+  position: relative;
+}
+/* line 1370, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a div {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: -2px;
+  float: left;
+  line-height: 50px;
+  margin-top: 18px;
+}
+/* line 1373, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a div.total_loan_acc {
+  color: #e66a1f;
+}
+/* line 1374, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a div.total_active_acc {
+  color: #1c5c99;
+}
+/* line 1375, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a div.total_closed_acc {
+  color: #44b1ef;
+}
+/* line 1377, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a p {
+  font-size: 1.6rem;
+  color: #9b9b9b;
+  font-weight: 600;
+  width: 55%;
+  display: inline-block;
+  margin: 18px 0 0 10px;
+}
+/* line 1378, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a hr {
+  border-top: 4px solid #f5f5f5;
+  display: inline-block;
+  width: 100%;
+}
+/* line 1379, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a span {
+  background: url(../images/header_sprite.png) no-repeat;
+  display: block;
+  width: 24px;
+  height: 27px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+/* line 1381, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a span.total_loan_acc_icon {
+  background-position: -80px 0;
+}
+/* line 1382, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a span.total_active_acc_icon {
+  background-position: -115px 0;
+}
+/* line 1383, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a span.total_closed_acc_icon {
+  background-position: -147px 0;
+}
+/* line 1387, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li:last-child {
+  margin-right: 0px;
+}
+/* line 1389, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li:last-child div {
+  letter-spacing: -2px;
+}
+/* line 1390, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li:last-child p {
+  width: 54%;
+  margin-left: 12px;
+}
+/* line 1396, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .col-right {
+  max-width: 155px;
+  margin-top: 12px;
+}
+/* line 1401, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .offer_box {
+  -webkit-box-shadow: 0px 0px 2px 0px;
+  -moz-box-shadow: 0px 0px 2px 0px;
+  -o-box-shadow: 0px 0px 2px 0px;
+  -ms-box-shadow: 0px 0px 2px 0px;
+  box-shadow: 0px 0px 2px 0px;
+  position: relative;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+}
+/* line 1408, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .offer_box span {
+  background: url(../images/header_sprite.png) 0 -513px no-repeat;
+  width: 100px;
+  height: 32px;
+  display: inline-block;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 6px;
+  left: -6px;
+}
+/* line 1422, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .offer_box .make_pay_mobile {
+  margin-top: 50px;
+  padding-left: 22px;
+  line-height: 22px;
+}
+/* line 1428, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .offer_box .make_pay_mobile .now_make_pay, #wrapper .outer-wrapper .inner-wrapper .offer_box .make_pay_mobile .from_ur_mob {
+  font-size: 2.2rem;
+  color: white;
+  text-transform: uppercase;
+}
+/* line 1430, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .offer_box .from_ur_mob {
+  position: relative;
+}
+/* line 1434, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .offer_box .from_ur_mob p {
+  font-size: 1.3rem;
+  color: white;
+  text-transform: uppercase;
+}
+/* line 1435, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .offer_box .from_ur_mob:after {
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  right: 18px;
+  background: url(../images/header_sprite.png) 0 -549px no-repeat;
+  width: 37px;
+  height: 37px;
+}
+/* line 1437, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .offer_box a {
+  padding: 0px 10px !important;
+  font-size: 1.2rem !important;
+  margin-left: 5px !important;
+}
+/* line 1446, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .mobile_app {
+  -webkit-box-shadow: 0px 0px 2px 0px;
+  -moz-box-shadow: 0px 0px 2px 0px;
+  -o-box-shadow: 0px 0px 2px 0px;
+  -ms-box-shadow: 0px 0px 2px 0px;
+  box-shadow: 0px 0px 2px 0px;
+  background-color: white;
+  padding: 1px 1px 10px 1px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+/* line 1453, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .mobile_app .mobileappbg {
+  padding: 5px 5px 10px 5px;
+  position: relative;
+}
+/* line 1458, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .mobile_app .mobileappbg:after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  right: 0px;
+  background: url(../images/mobile_app_border.png) 0 0px repeat-x;
+  width: 100%;
+  height: 10px;
+}
+/* line 1459, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .mobile_app .mobileappbg p {
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+  display: inline-block;
+}
+/* line 1461, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .mobile_app .title {
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 5px 5px;
+  position: relative;
+}
+/* line 1469, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .mobile_app .title:after {
+  content: '';
+  position: absolute;
+  bottom: 17px;
+  right: 6px;
+  background: url(../images/header_sprite.png) -50px -549px no-repeat;
+  width: 22px;
+  height: 32px;
+}
+/* line 1470, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .mobile_app .title hr {
+  border-top: 1px solid #88b0c4;
+  width: 95%;
+  margin: 5px auto;
+}
+/* line 1472, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .mobile_app p {
+  text-align: left;
+  font-size: 1.2rem;
+  color: #527d9c;
+  margin: 15px 0 5px 5px;
+  display: inline-block;
+  width: 85%;
+}
+/* line 1474, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .mobile_app input[type="text"] {
+  color: #8a8a8a;
+  height: 30px;
+  padding: 0 10px;
+  line-height: 30px;
+  border: 1px solid #e9e9e9;
+  width: 85%;
+  margin-bottom: 15px;
+}
+/* line 1480, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .need_help {
+  -webkit-box-shadow: 0px 0px 2px 0px;
+  -moz-box-shadow: 0px 0px 2px 0px;
+  -o-box-shadow: 0px 0px 2px 0px;
+  -ms-box-shadow: 0px 0px 2px 0px;
+  box-shadow: 0px 0px 2px 0px;
+  background-color: white;
+  padding: 5px 10px 10px 10px;
+}
+/* line 1486, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .need_help .title {
+  font-size: 2rem;
+  color: #44b1ef;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 5px 5px;
+  position: relative;
+}
+/* line 1494, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .need_help .title hr {
+  border-top: 1px solid #ebebeb;
+  width: 95%;
+  margin: 5px auto;
+}
+/* line 1497, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .need_help .contact_us {
+  margin: 0px 0px 5px 0px;
+}
+/* line 1500, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .need_help .contact_us .contact_icon {
+  float: left;
+  margin-right: 6px;
+  width: 20px;
+  height: 20px;
+  background: url("../images/header_sprite.png") 0 0 no-repeat;
+}
+/* line 1503, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .need_help .faq {
+  margin: 0px 0px 5px 0px;
+}
+/* line 1506, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper .need_help .faq .faq_icon {
+  float: left;
+  margin-right: 6px;
+  width: 20px;
+  height: 20px;
+  background: url("../images/header_sprite.png") -26px -2px no-repeat;
+}
+/* line 1511, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .inner-wrapper:after {
+  clear: both;
+  width: 100%;
+  height: 0px;
+  content: '';
+  display: block;
+}
+/* line 1515, ../scss/base/_common.scss */
+#wrapper .outer-wrapper.footer {
+  background-color: #252424;
+}
+/* line 1517, ../scss/base/_common.scss */
+#wrapper .outer-wrapper.footer p {
+  color: #96887b;
+  font-size: 1.2rem;
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 12px;
+}
+/* line 1518, ../scss/base/_common.scss */
+#wrapper .outer-wrapper.footer ul {
+  float: right;
+  margin: 12px 0px;
+}
+/* line 1521, ../scss/base/_common.scss */
+#wrapper .outer-wrapper.footer ul li {
+  float: left;
+}
+/* line 1522, ../scss/base/_common.scss */
+#wrapper .outer-wrapper.footer ul li a {
+  display: block;
+  color: #96887b;
+  font-size: 1.2rem;
+  line-height: 14px;
+  padding: 0 15px;
+}
+/* line 1524, ../scss/base/_common.scss */
+#wrapper .outer-wrapper.footer ul li:first-child {
+  border-right: 1px solid #96887b;
+}
+/* line 1528, ../scss/base/_common.scss */
+#wrapper .outer-wrapper .search_icon {
+  background-color: red;
+}
+
+/**wrapper end**/
+/* line 1532, ../scss/base/_common.scss */
+.menubg {
+  background-color: #0e3e6c;
+}
+
+/* line 1533, ../scss/base/_common.scss */
+.middle-wrapper {
+  background-color: #e8ebf1;
+  padding-bottom: 40px;
+}
+
+/* line 1534, ../scss/base/_common.scss */
+.orangebg {
+  background-color: #e66a1f;
+}
+
+/* line 1535, ../scss/base/_common.scss */
+.grayishgreen {
+  background-color: #808468;
+}
+
+/* line 1536, ../scss/base/_common.scss */
+.whitebg {
+  background-color: white;
+}
+
+/* line 1537, ../scss/base/_common.scss */
+.fl_wfull, #wrapper, #wrapper .outer-wrapper, #wrapper .outer-wrapper .inner-wrapper .col-left, #wrapper .outer-wrapper .inner-wrapper .left_menu, #wrapper .outer-wrapper .inner-wrapper .pre_apprv_loan, #wrapper .outer-wrapper .inner-wrapper .col-middle, #wrapper .outer-wrapper .inner-wrapper .col-half-middle, #wrapper .outer-wrapper .inner-wrapper .req_otp, #wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link, #wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number, #wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_details, #wrapper .outer-wrapper .inner-wrapper .notifications, #wrapper .outer-wrapper .inner-wrapper .loan_account_details, #wrapper .outer-wrapper .inner-wrapper .outstanding_highchart, #wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul, #wrapper .outer-wrapper .inner-wrapper .total_principle_dis, #wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_amount_disbursed, #wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_summary_block ul, #wrapper .outer-wrapper .inner-wrapper .view_details, #wrapper .outer-wrapper .inner-wrapper .view_details #details td .acc_content_details, #wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details, #wrapper .outer-wrapper .inner-wrapper .view_details .acc_content_details .account_user_info, #wrapper .outer-wrapper .inner-wrapper .statement .find-account, #wrapper .outer-wrapper .inner-wrapper .statement .sanction_details, #wrapper .outer-wrapper .inner-wrapper .statement .gold_loan_icon, #wrapper .outer-wrapper .inner-wrapper .statement #statement_details_wrapper, #wrapper .outer-wrapper .inner-wrapper .repay_schedule .find-account, #wrapper .outer-wrapper .inner-wrapper .repay_schedule .com_vehicle_icon, #wrapper .outer-wrapper .inner-wrapper .repay_schedule #repay_schedule_wrapper, #wrapper .outer-wrapper .inner-wrapper .download_btn, #wrapper .outer-wrapper .inner-wrapper .quick-pay, #wrapper .outer-wrapper .inner-wrapper .quick-pay .loan-info, #wrapper .outer-wrapper .inner-wrapper .interest_certificate, #wrapper .outer-wrapper .inner-wrapper .interest_certificate .loan-info, #wrapper .outer-wrapper .inner-wrapper .confirm_to_pay, #wrapper .outer-wrapper .inner-wrapper .confirm_to_pay .loan-info, #wrapper .outer-wrapper .inner-wrapper .confirm_to_pay .loan-info .form-control, #wrapper .outer-wrapper .inner-wrapper .payment_history, #wrapper .outer-wrapper .inner-wrapper .payment_history #payment_history_wrapper, #wrapper .outer-wrapper .inner-wrapper .outstanding, #wrapper .outer-wrapper .inner-wrapper .outstanding #outstanding_wrapper, #wrapper .outer-wrapper .inner-wrapper .statement_download, #wrapper .outer-wrapper .inner-wrapper .gold_summary, #wrapper .outer-wrapper .inner-wrapper .gold_summary .gold_loan_summary_block, #wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed, #wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .gold_loan_summary_repay, #wrapper .outer-wrapper .inner-wrapper ul.princial_interest_other_details, #wrapper .outer-wrapper .inner-wrapper .summary_block_right ul, #wrapper .outer-wrapper .inner-wrapper .loan_against_property, #wrapper .outer-wrapper .inner-wrapper .total_loan_account_details, #wrapper .outer-wrapper .inner-wrapper .col-right, #wrapper .outer-wrapper .inner-wrapper .offer_box, #wrapper .outer-wrapper .inner-wrapper .offer_box .make_pay_mobile, #wrapper .outer-wrapper .inner-wrapper .mobile_app, #wrapper .outer-wrapper .inner-wrapper .mobile_app .mobileappbg, #wrapper .outer-wrapper .inner-wrapper .need_help, #wrapper .outer-wrapper .inner-wrapper .need_help .contact_us, #wrapper .outer-wrapper .inner-wrapper .need_help .faq, .form-control {
+  float: left;
+  width: 100%;
+}
+
+/* line 1538, ../scss/base/_common.scss */
+.bluebutton, #wrapper .outer-wrapper .inner-wrapper .pre_apprv_loan .apply_now, #wrapper .outer-wrapper .inner-wrapper .req_otp .request_otp, #wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number input[type="button"], #wrapper .outer-wrapper .inner-wrapper .download_btn .download, #wrapper .outer-wrapper .inner-wrapper .download_btn .print, #wrapper .outer-wrapper .inner-wrapper .download_btn .view_cer, #wrapper .outer-wrapper .inner-wrapper .download_btn .dowload_cer, #wrapper .outer-wrapper .inner-wrapper .confirm_to_pay .loan-info .form-control .submit, #wrapper .outer-wrapper .inner-wrapper .offer_box a, #wrapper .outer-wrapper .inner-wrapper .mobile_app .apply_now {
+  background-color: #44b1ef;
+  padding: 0px 35px;
+  line-height: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 10px auto 0px;
+  color: white;
+  cursor: pointer;
+}
+
+/* line 1539, ../scss/base/_common.scss */
+.mobileappbg {
+  background-color: #a6cfe3;
+}
+
+/* line 1540, ../scss/base/_common.scss */
+.toptitle, #wrapper .outer-wrapper .inner-wrapper .heading {
+  background-color: #1c5c99;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+}
+
+/* line 1541, ../scss/base/_common.scss */
+.subtitle, #wrapper .outer-wrapper .inner-wrapper .subheading {
+  color: white;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+}
+
+/* line 1542, ../scss/base/_common.scss */
+.heading {
+  font-size: 1.6rem;
+  clear: both;
+}
+/* line 1544, ../scss/base/_common.scss */
+.heading:before {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  background: url(../images/header_sprite.png) no-repeat;
+  margin: 0 auto;
+  width: 45px;
+  height: 35px;
+}
+
+/* line 1546, ../scss/base/_common.scss */
+.rightbgblue {
+  background-color: #5ea9dd;
+}
+
+/* line 1547, ../scss/base/_common.scss */
+.blackgrey, #wrapper .outer-wrapper .inner-wrapper .statement .sanction_details {
+  background-color: #717881;
+  color: white;
+  font-size: 1.6rem;
+  height: 36px;
+  line-height: 36px;
+  text-indent: 15px;
+}
+/* line 1548, ../scss/base/_common.scss */
+.blackgrey:before, #wrapper .outer-wrapper .inner-wrapper .statement .sanction_details:before {
+  background: none;
+}
+
+/* line 1550, ../scss/base/_common.scss */
+.form-control {
+  margin-bottom: 30px;
+}
+
+/* line 1551, ../scss/base/_common.scss */
+.error {
+  border: 1px solid #ff9e9b;
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 10px;
+  margin-left: 12px;
+  padding: 10px;
+  background-color: #f7cecd;
+}
+
+/* line 1552, ../scss/base/_common.scss */
+label {
+  float: left;
+  width: 30%;
+  line-height: 30px;
+  font-size: 1.6rem;
+}
+
+/* line 1553, ../scss/base/_common.scss */
+.selectbg {
+  width: 40%;
+  float: left;
+  height: 30px;
+  border: 1px solid #bcbcbc;
+  background: url("../images/select-arrow.jpg") no-repeat right center #eeecec;
+  cursor: pointer;
+  position: relative;
+  padding: 0;
+}
+/* line 1554, ../scss/base/_common.scss */
+.selectbg:hover {
+  background: url("../images/select-arrow.jpg") no-repeat right center;
+}
+/* line 1555, ../scss/base/_common.scss */
+.selectbg select {
+  position: absolute;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+  height: 30px;
+  top: 0px;
+}
+/* line 1556, ../scss/base/_common.scss */
+.selectbg .selectedvalue {
+  font-size: 1.6rem;
+  line-height: 30px;
+  padding: 0 10px;
+  color: #1c5c99;
+  text-align: left;
+  float: left;
+}
+
+/* line 1558, ../scss/base/_common.scss */
+input[type="text"] {
+  width: 100%;
+  border: 1px solid #bcbcbc;
+  height: 30px;
+  background-color: #eeecec;
+  line-height: 30px;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+/* line 1559, ../scss/base/_common.scss */
+input[type="radio"] {
+  background-color: red;
+}
+
+/* line 1560, ../scss/base/_common.scss */
+.icon {
+  background: url(../images/download_print_icon.png) no-repeat;
+  margin: -7px auto;
+  display: inline-block;
+  height: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  /* line 10, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .left_section .search {
+    margin: 15px 0 0px 5px;
+  }
+  /* line 15, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .right_section .setting {
+    padding: 0 0px 0 0px;
+  }
+  /* line 23, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper nav ul li a {
+    padding: 0 24px;
+  }
+  /* line 25, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper nav ul li:last-child a {
+    padding: 0px 11px;
+  }
+  /* line 30, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .col-middle {
+    max-width: 645px;
+    width: 50%;
+    float: left;
+    margin: 12px 12px 0;
+  }
+
+  /* line 34, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .notifications .notify_list {
+    padding: 10px 0;
+  }
+
+  /* line 35, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .notifications .notify_list p {
+    width: 77%;
+  }
+
+  /* line 36, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .notifications .notify_list a {
+    width: 22%;
+    vertical-align: top;
+  }
+
+  /* line 37, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .notifications .see_all {
+    margin: 10px 0 20px 20px;
+  }
+
+  /* line 38, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .loan_account_details li a p, #wrapper .outer-wrapper .inner-wrapper .loan_account_details li:last-child p {
+    width: 100%;
+    margin: 5px 0 0 0px;
+  }
+
+  /* line 39, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .loan_account_details li {
+    width: 32.4%;
+  }
+
+  /* line 40, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a p, #wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li:last-child p {
+    width: 100%;
+    margin: 0px 0 10px 0px;
+  }
+
+  /* line 41, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li {
+    width: 32.4%;
+  }
+
+  /* line 42, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  /* line 43, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li ul.princial_interest_other_details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* line 44, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li ul.princial_interest_other_details li {
+    width: 45%;
+  }
+
+  /* line 45, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper ul.princial_interest_other_details li {
+    margin: 5px 5px 5px 9px;
+  }
+
+  /* line 46, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .summary_block_left, #wrapper .outer-wrapper .inner-wrapper .summary_block_right {
+    width: 100%;
+  }
+
+  /* line 47, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .summary_block_left .total_amount_disbursed .disbursed {
+    width: 54%;
+  }
+
+  /* line 48, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .summary_block_right ul li {
+    width: 25%;
+  }
+
+  /* line 49, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .total_principle_dis .outstanding_highchart ul, #wrapper .outer-wrapper .inner-wrapper .total_principle_dis .outstanding_highchart ul li, #wrapper .outer-wrapper .inner-wrapper .total_principle_dis .outstanding_highchart ul li:last-child {
+    width: 100%;
+  }
+
+  /* line 50, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_summary_block {
+    margin: 4px;
+  }
+
+  /* line 51, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper {
+    overflow: scroll;
+  }
+
+  /* line 52, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details {
+    width: 644px !important;
+  }
+
+  /* line 53, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .view_details .clickon {
+    display: none;
+  }
+
+  /* line 54, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .total_principle_dis .total_amount_disbursed .disbursed {
+    width: 53%;
+  }
+
+  /* line 55, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper .dataTables_scroll {
+    width: 644px;
+  }
+
+  /* line 56, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .summary_block_right ul li {
+    width: 50%;
+  }
+
+  /* line 57, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .view_details #gold_loan_view_details_wrapper #gold_loan_view_details_filter {
+    padding: 10px;
+  }
+
+  /* line 58, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .view_details .clickon {
+    top: 50px;
+    margin-right: 2%;
+    width: 90px;
+  }
+
+  /* line 59, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number input[type="text"] {
+    width: 100%;
+  }
+
+  /* line 60, ../scss/base/_media.scss */
+  #payment_history, #outstanding {
+    width: 800px !important;
+  }
+
+  /* line 61, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .col-half-middle {
+    width: 544px;
+  }
+
+  /* line 62, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .interest_certificate .loan-info .form-control label {
+    width: 50%;
+  }
+
+  /* line 63, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .interest_certificate .loan-info .form-control .selectbg {
+    width: 50%;
+  }
+
+  /* line 64, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender input[type="text"] {
+    width: 86%;
+    margin-bottom: 15px;
+  }
+
+  /* line 65, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender span {
+    line-height: 30px;
+    width: 30px;
+  }
+
+  /* line 66, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender span.to {
+    margin-left: 0px;
+  }
+
+  /* line 67, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender .download_btn {
+    margin-top: 10px;
+  }
+
+  /* line 68, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .interest_certificate .view_details .whitebg .select_calender .download_btn a {
+    font-size: 1.2rem;
+    margin: 10px 1px 0;
+    padding: 0 10px;
+  }
+
+  /*
+  #wrapper .outer-wrapper .inner-wrapper .statement_download .view_details .select_calender input[type="text"]{width:86%; margin-bottom: 15px;}
+  #wrapper .outer-wrapper .inner-wrapper .statement_download .view_details .select_calender span{line-height: 30px; width: 30px;}
+  #wrapper .outer-wrapper .inner-wrapper .statement_download .view_details .select_calender span.to{margin-left: 0px;}
+  #wrapper .outer-wrapper .inner-wrapper .statement_download .view_details .select_calender .download_btn{margin-top: 10px;}
+  #wrapper .outer-wrapper .inner-wrapper .statement_download .view_details .select_calender .download_btn a{font-size: 1.2rem;  margin: 10px 1px 0;  padding: 0 10px;}
+  */
+}
+@media only screen and (max-width: 767px) {
+  /* line 85, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .menu {
+    position: relative;
+  }
+  /* line 88, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .menu ul {
+    width: 100%;
+    position: absolute;
+    top: 69px;
+    left: 0px;
+    padding: 0px 0px;
+    background: #303030;
+  }
+  /* line 96, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .menu ul li {
+    margin: 0px 0px 0px 0px;
+    float: none;
+    display: block;
+  }
+  /* line 101, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .menu ul li a {
+    display: block;
+    line-height: 40px;
+  }
+  /* line 103, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .menu ul li:last-child a {
+    padding: 0px 11px;
+  }
+  /* line 107, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .menu ul.active {
+    display: none;
+  }
+  /* line 108, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .menu ul:after {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0%;
+    left: 22px;
+    content: '';
+    transform: translate(0%, -100%);
+  }
+  /* line 111, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .menu .toggle-nav {
+    padding: 20px;
+    float: left;
+    display: block;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    background: #303030;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+    color: #777;
+    font-size: 20px;
+    transition: color linear 0.15s;
+  }
+  /* line 123, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .menu .toggle-nav:hover {
+    text-decoration: none;
+    color: #66a992;
+  }
+
+  /* line 130, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .col-half-middle {
+    width: 96%;
+  }
+
+  /* line 131, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .interest_certificate .loan-info .form-control label {
+    width: 100%;
+  }
+
+  /* line 132, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .interest_certificate .loan-info .form-control .selectbg {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  /* line 136, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .right_section {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  /* line 137, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .left_section .search {
+    width: 65%;
+  }
+
+  /* line 138, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .left_section .search input[type="text"] {
+    width: 100%;
+  }
+
+  /* line 139, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .left_section {
+    margin-bottom: 0px;
+    width: 100%;
+  }
+
+  /* line 140, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .col-left {
+    max-width: 96%;
+    margin-left: 12px;
+  }
+
+  /* line 141, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .col-middle {
+    max-width: 96%;
+    width: 100%;
+    margin-left: 12px;
+  }
+
+  /* line 142, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .col-right {
+    max-width: 96%;
+    margin-left: 12px;
+  }
+
+  /* line 143, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .left_menu ul li {
+    float: left;
+    width: 50%;
+  }
+
+  /* line 144, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li {
+    width: 50%;
+  }
+
+  /* line 145, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li ul.princial_interest_other_details li {
+    width: 48%;
+  }
+
+  /* line 146, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .mobile {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    padding: 5px 0 0 15px;
+    font-size: 2.4rem;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  /* line 147, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper nav {
+    right: 0px;
+    top: 162px;
+  }
+
+  /* line 148, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .right_section .user_welname {
+    margin: 0 5px 0 0;
+  }
+
+  /* line 149, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .right_section .setting {
+    width: 7% !important;
+  }
+
+  /* line 150, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .right_section .contact-faq-set, #wrapper .outer-wrapper .inner-wrapper .right_section .contact_us, #wrapper .outer-wrapper .inner-wrapper .right_section .faq, #wrapper .outer-wrapper .inner-wrapper .right_section .setting, #wrapper .outer-wrapper .inner-wrapper .right_section .contact_us, #wrapper .outer-wrapper .inner-wrapper .right_section .faq, #wrapper .outer-wrapper .inner-wrapper .right_section .setting {
+    padding: 0 8px 0 0;
+  }
+
+  /* line 151, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .right_section .setting .setting_icon {
+    ackground: rgba(0, 0, 0, 0) url("../images/header_sprite.png") no-repeat scroll -53px -2px;
+    margin: 0 3px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 155, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper nav {
+    top: 210px;
+  }
+
+  /* line 156, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .left_section .search {
+    width: 95%;
+    margin: 8px 0 8px 5px;
+  }
+
+  /* line 157, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .col-left {
+    width: 94%;
+  }
+
+  /* line 158, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .col-right {
+    width: 94%;
+  }
+
+  /* line 159, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .left_menu ul li {
+    width: 100%;
+  }
+
+  /* line 160, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .col-middle {
+    width: 94%;
+  }
+
+  /* line 161, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .pre_apprv_loan p {
+    width: 100%;
+  }
+
+  /* line 162, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .notifications .notify_list p {
+    width: 74%;
+    margin-right: 5px;
+  }
+
+  /* line 163, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .loan_account_details li {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  /* line 164, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .loan_account_details li a div {
+    width: 28%;
+  }
+
+  /* line 165, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .loan_account_details li a p, #wrapper .outer-wrapper .inner-wrapper .loan_account_details li:last-child p {
+    margin: 15px 0 0;
+    width: 40%;
+  }
+
+  /* line 166, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  /* line 167, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a div {
+    width: 28%;
+  }
+
+  /* line 168, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li a p, #wrapper .outer-wrapper .inner-wrapper .total_loan_account_details li:last-child p {
+    margin: 22px 0 0;
+    width: 40%;
+  }
+
+  /* line 169, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .outstanding_highchart ul li {
+    width: 100%;
+  }
+
+  /* line 170, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .right_section .user_welname {
+    margin: 0 -3px 0 0;
+  }
+
+  /* line 171, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .right_section .contact-faq-set, #wrapper .outer-wrapper .inner-wrapper .right_section .contact_us, #wrapper .outer-wrapper .inner-wrapper .right_section .faq, #wrapper .outer-wrapper .inner-wrapper .right_section .setting, #wrapper .outer-wrapper .inner-wrapper .right_section .contact_us, #wrapper .outer-wrapper .inner-wrapper .right_section .faq, #wrapper .outer-wrapper .inner-wrapper .right_section .setting, #wrapper .outer-wrapper .inner-wrapper .right_section .contact_us, #wrapper .outer-wrapper .inner-wrapper .right_section .faq, #wrapper .outer-wrapper .inner-wrapper .right_section .setting {
+    padding: 0 6px 0 0;
+  }
+
+  /* line 172, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .right_section .contact-faq-set, #wrapper .outer-wrapper .inner-wrapper .right_section .contact_us, #wrapper .outer-wrapper .inner-wrapper .right_section .faq, #wrapper .outer-wrapper .inner-wrapper .right_section .setting, #wrapper .outer-wrapper .inner-wrapper .right_section .contact_us, #wrapper .outer-wrapper .inner-wrapper .right_section .faq, #wrapper .outer-wrapper .inner-wrapper .right_section .setting {
+    font-size: 1.2rem;
+  }
+
+  /* line 173, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .right_section .contact_us .contact_icon, #wrapper .outer-wrapper .inner-wrapper .right_section .faq .faq_icon, #wrapper .outer-wrapper .inner-wrapper .right_section .user_welname .user_img {
+    margin-right: 3px;
+  }
+
+  /* line 174, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper.footer p, #wrapper .outer-wrapper.footer ul {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 175, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper.footer ul li {
+    display: inline-block;
+    float: none;
+  }
+
+  /* line 176, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .txt {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  /* line 177, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number {
+    width: 100%;
+  }
+
+  /* line 178, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number input[type="text"] {
+    margin-left: 0px;
+    width: 100%;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+  }
+
+  /* line 179, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number input[type="button"] {
+    float: left;
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+    margin-right: 10px;
+  }
+
+  /* line 180, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .congrts_adharcard_link .enter_ur_adhaar_number .enter_number .resendotp {
+    margin: 18px 0 0 0px;
+  }
+
+  /* line 181, ../scss/base/_media.scss */
+  .selectbg, label, .error, #wrapper .outer-wrapper .inner-wrapper .quick-pay .loan-info input[type="text"] {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  /* line 182, ../scss/base/_media.scss */
+  .error {
+    margin-top: 12px;
+  }
+
+  /* line 183, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .col-half-middle {
+    width: 94%;
+  }
+
+  /* line 184, ../scss/base/_media.scss */
+  #wrapper .outer-wrapper .inner-wrapper .repay_schedule #repay_schedule_wrapper table.dataTable {
+    width: 644px !important;
+  }
+}
+.dnone{display:none;}
